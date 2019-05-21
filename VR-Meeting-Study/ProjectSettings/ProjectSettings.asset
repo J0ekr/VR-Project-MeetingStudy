@@ -633,10 +633,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: c334477e-bd4c-4dee-ba44-715aacad0e44
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: VR-Meeting-Study
+  organizationId: joekrr
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
