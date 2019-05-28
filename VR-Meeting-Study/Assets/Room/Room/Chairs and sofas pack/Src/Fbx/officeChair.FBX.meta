@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 48c2e4a41ca46974eb9ca32d47ebb07b
+guid: 4f097585acb8571439d43e9b49619d03
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
@@ -29,27 +29,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: alu
-    second: {fileID: 2100000, guid: 76e0e9bb65664e943a939e9571bb813e, type: 2}
+    second: {fileID: 2100000, guid: 2c19ca8e754e1f64f955217141848dea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chaiseBas
-    second: {fileID: 2100000, guid: 64ff64a9beaba0f47a7573165947517a, type: 2}
+    second: {fileID: 2100000, guid: 32811986d52a9794fa6d20440db7fcd0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chaiseDossier
-    second: {fileID: 2100000, guid: 9801e829ac7b1a04b885e7354bed0d37, type: 2}
+    second: {fileID: 2100000, guid: 36431866bde97e74d9cde6e8d2eecbae, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: leatherBrown
-    second: {fileID: 2100000, guid: ea1d089ae5426304d800e37459c27c39, type: 2}
+    second: {fileID: 2100000, guid: 6f462b851d58e7e41a00df41ccb6adc3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plasticNoir
-    second: {fileID: 2100000, guid: 452a22c40a6c8b446a17365c2d96037a, type: 2}
+    second: {fileID: 2100000, guid: a9aa3ad662c61c346aac4a30ce2d3bed, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

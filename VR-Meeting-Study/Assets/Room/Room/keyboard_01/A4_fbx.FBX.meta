@@ -1,109 +1,339 @@
 fileFormatVersion: 2
-guid: 197bfdc5b3f1ad1498aa36ff7cb7b982
-timeCreated: 1492672086
-licenseType: Pro
+guid: 294f44344ea775649a31b446a88de965
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: A4_01
-    100002: A4_02
-    100004: A4_03
-    100006: A4_04
-    100008: A4_05
-    100010: A4_06
-    100012: A4_07
-    100014: A4_08
-    100016: A4_09
-    100018: A4_10
-    100020: A4_11
-    100022: A4_12
-    100024: A4_13
-    100026: A4_14
-    100028: A4_15
-    100030: A4_16
-    100032: A4_17
-    100034: A4_18
-    100036: A4_20
-    100038: //RootNode
-    400000: A4_01
-    400002: A4_02
-    400004: A4_03
-    400006: A4_04
-    400008: A4_05
-    400010: A4_06
-    400012: A4_07
-    400014: A4_08
-    400016: A4_09
-    400018: A4_10
-    400020: A4_11
-    400022: A4_12
-    400024: A4_13
-    400026: A4_14
-    400028: A4_15
-    400030: A4_16
-    400032: A4_17
-    400034: A4_18
-    400036: A4_20
-    400038: //RootNode
-    2300000: A4_01
-    2300002: A4_02
-    2300004: A4_03
-    2300006: A4_04
-    2300008: A4_05
-    2300010: A4_07
-    2300012: A4_08
-    2300014: A4_09
-    2300016: A4_10
-    2300018: A4_11
-    2300020: A4_12
-    2300022: A4_13
-    2300024: A4_14
-    2300026: A4_15
-    2300028: A4_16
-    2300030: A4_17
-    2300032: A4_18
-    2300034: A4_20
-    3300000: A4_01
-    3300002: A4_02
-    3300004: A4_03
-    3300006: A4_04
-    3300008: A4_05
-    3300010: A4_07
-    3300012: A4_08
-    3300014: A4_09
-    3300016: A4_10
-    3300018: A4_11
-    3300020: A4_12
-    3300022: A4_13
-    3300024: A4_14
-    3300026: A4_15
-    3300028: A4_16
-    3300030: A4_17
-    3300032: A4_18
-    3300034: A4_20
-    4300000: A4_02
-    4300002: A4_03
-    4300004: A4_04
-    4300006: A4_05
-    4300008: A4_07
-    4300010: A4_08
-    4300012: A4_09
-    4300014: A4_10
-    4300016: A4_11
-    4300018: A4_12
-    4300020: A4_20
-    4300022: A4_13
-    4300024: A4_14
-    4300026: A4_15
-    4300028: A4_16
-    4300030: A4_17
-    4300032: A4_18
-    4300034: A4_01
-    9500000: //RootNode
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: A4_01
+  - first:
+      1: 100002
+    second: A4_02
+  - first:
+      1: 100004
+    second: A4_03
+  - first:
+      1: 100006
+    second: A4_04
+  - first:
+      1: 100008
+    second: A4_05
+  - first:
+      1: 100010
+    second: A4_06
+  - first:
+      1: 100012
+    second: A4_07
+  - first:
+      1: 100014
+    second: A4_08
+  - first:
+      1: 100016
+    second: A4_09
+  - first:
+      1: 100018
+    second: A4_10
+  - first:
+      1: 100020
+    second: A4_11
+  - first:
+      1: 100022
+    second: A4_12
+  - first:
+      1: 100024
+    second: A4_13
+  - first:
+      1: 100026
+    second: A4_14
+  - first:
+      1: 100028
+    second: A4_15
+  - first:
+      1: 100030
+    second: A4_16
+  - first:
+      1: 100032
+    second: A4_17
+  - first:
+      1: 100034
+    second: A4_18
+  - first:
+      1: 100036
+    second: A4_20
+  - first:
+      1: 100038
+    second: //RootNode
+  - first:
+      4: 400000
+    second: A4_01
+  - first:
+      4: 400002
+    second: A4_02
+  - first:
+      4: 400004
+    second: A4_03
+  - first:
+      4: 400006
+    second: A4_04
+  - first:
+      4: 400008
+    second: A4_05
+  - first:
+      4: 400010
+    second: A4_06
+  - first:
+      4: 400012
+    second: A4_07
+  - first:
+      4: 400014
+    second: A4_08
+  - first:
+      4: 400016
+    second: A4_09
+  - first:
+      4: 400018
+    second: A4_10
+  - first:
+      4: 400020
+    second: A4_11
+  - first:
+      4: 400022
+    second: A4_12
+  - first:
+      4: 400024
+    second: A4_13
+  - first:
+      4: 400026
+    second: A4_14
+  - first:
+      4: 400028
+    second: A4_15
+  - first:
+      4: 400030
+    second: A4_16
+  - first:
+      4: 400032
+    second: A4_17
+  - first:
+      4: 400034
+    second: A4_18
+  - first:
+      4: 400036
+    second: A4_20
+  - first:
+      4: 400038
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: A4_01
+  - first:
+      23: 2300002
+    second: A4_02
+  - first:
+      23: 2300004
+    second: A4_03
+  - first:
+      23: 2300006
+    second: A4_04
+  - first:
+      23: 2300008
+    second: A4_05
+  - first:
+      23: 2300010
+    second: A4_07
+  - first:
+      23: 2300012
+    second: A4_08
+  - first:
+      23: 2300014
+    second: A4_09
+  - first:
+      23: 2300016
+    second: A4_10
+  - first:
+      23: 2300018
+    second: A4_11
+  - first:
+      23: 2300020
+    second: A4_12
+  - first:
+      23: 2300022
+    second: A4_13
+  - first:
+      23: 2300024
+    second: A4_14
+  - first:
+      23: 2300026
+    second: A4_15
+  - first:
+      23: 2300028
+    second: A4_16
+  - first:
+      23: 2300030
+    second: A4_17
+  - first:
+      23: 2300032
+    second: A4_18
+  - first:
+      23: 2300034
+    second: A4_20
+  - first:
+      33: 3300000
+    second: A4_01
+  - first:
+      33: 3300002
+    second: A4_02
+  - first:
+      33: 3300004
+    second: A4_03
+  - first:
+      33: 3300006
+    second: A4_04
+  - first:
+      33: 3300008
+    second: A4_05
+  - first:
+      33: 3300010
+    second: A4_07
+  - first:
+      33: 3300012
+    second: A4_08
+  - first:
+      33: 3300014
+    second: A4_09
+  - first:
+      33: 3300016
+    second: A4_10
+  - first:
+      33: 3300018
+    second: A4_11
+  - first:
+      33: 3300020
+    second: A4_12
+  - first:
+      33: 3300022
+    second: A4_13
+  - first:
+      33: 3300024
+    second: A4_14
+  - first:
+      33: 3300026
+    second: A4_15
+  - first:
+      33: 3300028
+    second: A4_16
+  - first:
+      33: 3300030
+    second: A4_17
+  - first:
+      33: 3300032
+    second: A4_18
+  - first:
+      33: 3300034
+    second: A4_20
+  - first:
+      43: 4300000
+    second: A4_02
+  - first:
+      43: 4300002
+    second: A4_03
+  - first:
+      43: 4300004
+    second: A4_04
+  - first:
+      43: 4300006
+    second: A4_05
+  - first:
+      43: 4300008
+    second: A4_07
+  - first:
+      43: 4300010
+    second: A4_08
+  - first:
+      43: 4300012
+    second: A4_09
+  - first:
+      43: 4300014
+    second: A4_10
+  - first:
+      43: 4300016
+    second: A4_11
+  - first:
+      43: 4300018
+    second: A4_12
+  - first:
+      43: 4300020
+    second: A4_20
+  - first:
+      43: 4300022
+    second: A4_13
+  - first:
+      43: 4300024
+    second: A4_14
+  - first:
+      43: 4300026
+    second: A4_15
+  - first:
+      43: 4300028
+    second: A4_16
+  - first:
+      43: 4300030
+    second: A4_17
+  - first:
+      43: 4300032
+    second: A4_18
+  - first:
+      43: 4300034
+    second: A4_01
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 62fa0b5b3d077514ba3a7e87b8d68036, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cable
+    second: {fileID: 2100000, guid: 1f5e08b7b5f6f5a4b9f708e7d4a1a8bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cable Head
+    second: {fileID: 2100000, guid: 2ddb461ca526e4f429f2814978e9a734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Keys
+    second: {fileID: 2100000, guid: 20d51adfc7269bb4ba8891f4fde15550, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lights
+    second: {fileID: 2100000, guid: 5d1ecef0417b872499a44479ac02a5b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Key Body
+    second: {fileID: 2100000, guid: 60b51faef739bec4a8e52dde0ab28b11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Keys
+    second: {fileID: 2100000, guid: 3fbec90ec83219244aede04163b86f61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 234848fbd098bff449b0b0ce74dcb5e5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -116,12 +346,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -129,13 +362,22 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -145,10 +387,15 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -158,8 +405,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
