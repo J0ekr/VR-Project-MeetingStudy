@@ -344,6 +344,23 @@
             <e p="Version.txt" t="Include" />
           </e>
           <e p="Modules" t="Include">
+            <e p="Hands" t="Include">
+              <e p="Examples" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="CenterTransformOnCam.cs" t="Include" />
+                  <e p="CycleHandPairs.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="LeapHandsAutoRigEditor.cs" t="Include" />
+                </e>
+                <e p="LeapHandsAutoRig.cs" t="Include" />
+                <e p="MinimalHand.cs" t="Include" />
+                <e p="PolyFinger.cs" t="Include" />
+                <e p="PolyHand.cs" t="Include" />
+              </e>
+            </e>
             <e p="InteractionEngine" t="Include">
               <e p="Examples" t="Include">
                 <e p="2. Basic UI" t="Include">
@@ -477,6 +494,7 @@
             </e>
           </e>
         </e>
+        <e p="LocalChecker.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="Transparent Specular.shader" t="Include" />
         </e>
@@ -813,7 +831,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="EnableEventRelay.cs" t="Include" />
           <e p="IKControl.cs" t="Include" />
+          <e p="NetHandEnableDisable.cs" t="Include" />
           <e p="Photon" t="Include">
             <e p="GameControllers" t="Include">
               <e p="PhotonPlayer.cs" t="Include" />
