@@ -5,13 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LeapMotion/Core/Prefabs/Attachment Hands.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeapMotion/Core/Prefabs/Attachment Hands.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeapMotion/Core/Prefabs/HandModelsNonHuman/LoPoly Rigged Hand Left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeapMotion/Core/Prefabs/HandModelsNonHuman/LoPoly Rigged Hand Left.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LeapMotion/Core/Prefabs/Leap Rig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeapMotion/Core/Prefabs/Leap Rig.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonAvatar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonAvatar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonAvatar.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonAvatar.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonHands.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonHands.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonHands.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonHands.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnableEventRelay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnableEventRelay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetHandEnableDisable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetHandEnableDisable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,61 +29,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state>
+              <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
               <folding>
-                <marker date="1559037394849" expanded="true" signature="6:119" ph="..." />
-                <marker date="1559037394849" expanded="true" signature="174:1747" ph="{...}" />
-                <marker date="1559037394849" expanded="true" signature="341:375" ph="{...}" />
-                <marker date="1559037394849" expanded="true" signature="394:495" ph="{...}" />
-                <marker date="1559037394849" expanded="true" signature="544:705" ph="{...}" />
-                <marker date="1559037394849" expanded="true" signature="744:871" ph="{...}" />
-                <marker date="1559037394849" expanded="true" signature="950:1071" ph="{...}" />
-                <marker date="1559037394849" expanded="true" signature="1094:1374" ph="{...}" />
-                <marker date="1559037394849" expanded="true" signature="1453:1579" ph="{...}" />
-                <marker date="1559037394849" expanded="true" signature="1620:1743" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <marker date="1559037978536" expanded="true" signature="6:171" ph="..." />
-                <marker date="1559037978536" expanded="true" signature="242:2102" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="428:773" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="471:527" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="540:722" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="591:712" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="791:844" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="881:1025" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="1063:1211" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="1251:1520" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="1328:1469" ph="/* photonPlayers = PhotonNetwork.PlayerList; ... */" />
-                <marker date="1559037978536" expanded="true" signature="1550:1664" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="1730:1909" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="1823:1903" ph="{...}" />
-                <marker date="1559037978536" expanded="true" signature="1942:2100" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding>
-                <marker date="1559047458661" expanded="true" signature="6:92" ph="..." />
-                <marker date="1559047458661" expanded="true" signature="132:374" ph="{...}" />
-                <marker date="1559047458661" expanded="true" signature="232:331" ph="{...}" />
-                <marker date="1559047458661" expanded="true" signature="272:325" ph="{...}" />
-                <marker date="1559047458661" expanded="true" signature="349:370" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="6:119" ph="..." />
+                <marker date="1559730021336" expanded="true" signature="174:1751" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="341:375" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="394:495" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="544:705" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="744:871" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="950:1071" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="1094:1378" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="1457:1583" ph="{...}" />
+                <marker date="1559730021336" expanded="true" signature="1624:1747" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="-120">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <marker date="1559661183144" expanded="false" signature="6:113" ph="..." />
@@ -100,41 +63,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-              <folding>
-                <marker date="1559660771157" expanded="true" signature="6:110" ph="..." />
-                <marker date="1559660771157" expanded="true" signature="155:608" ph="{...}" />
-                <marker date="1559660771157" expanded="true" signature="242:364" ph="{...}" />
-                <marker date="1559660771157" expanded="true" signature="422:606" ph="{...}" />
-                <marker date="1559660771157" expanded="true" signature="451:600" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LocalChecker.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <marker date="1559660491758" expanded="false" signature="6:96" ph="..." />
-                <marker date="1559660491758" expanded="true" signature="139:455" ph="{...}" />
-                <marker date="1559660491758" expanded="true" signature="237:374" ph="{...}" />
-                <marker date="1559660491758" expanded="true" signature="307:368" ph="{...}" />
-                <marker date="1559660491758" expanded="true" signature="432:453" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1197">
+            <state relative-caret-position="495">
               <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
               <folding>
                 <marker date="1557137394000" expanded="true" signature="0:466" ph="/* PhotonHandler is a runtime MonoBehaviour to include PUN into the main loop. ... */" />
@@ -165,32 +96,250 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnableEventRelay.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="903">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
-                <marker date="1559663670399" expanded="true" signature="6:70" ph="..." />
-                <marker date="1559663670399" expanded="true" signature="117:304" ph="{...}" />
-                <marker date="1559663670399" expanded="true" signature="203:241" ph="{...}" />
-                <marker date="1559663670399" expanded="true" signature="263:302" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="6:200" ph="..." />
+                <marker date="1559745767262" expanded="true" signature="242:2745" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="501:1350" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="584:1302" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="1375:2148" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="1445:2142" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="1654:1841" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="1858:1991" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="2199:2380" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="2290:2374" ph="/* GetComponent&lt;MeshRenderer&gt;().enabled = show; ... */" />
+                <marker date="1559745767262" expanded="true" signature="2407:2743" ph="{...}" />
+                <marker date="1559745767262" expanded="true" signature="2436:2737" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/NetHandEnableDisable.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/PolyHand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state>
               <folding>
-                <marker date="1559663806478" expanded="false" signature="6:96" ph="..." />
-                <marker date="1559663806478" expanded="true" signature="147:564" ph="{...}" />
-                <marker date="1559663806478" expanded="true" signature="335:483" ph="{...}" />
-                <marker date="1559663806478" expanded="true" signature="405:477" ph="{...}" />
-                <marker date="1559663806478" expanded="true" signature="541:562" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+                <marker date="1526074012000" expanded="false" signature="648:698" ph="..." />
+                <marker date="1526074012000" expanded="true" signature="721:1939" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="725:887" ph="/* A deforming, very low poly count hand. ... */" />
+                <marker date="1526074012000" expanded="true" signature="924:1934" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="970:1032" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="982:1026" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1086:1112" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1216:1444" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1294:1438" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1328:1430" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1551:1725" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1629:1719" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1663:1711" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1803:1930" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="1829:1924" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="17" column="101" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="101" />
+              <folding>
+                <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+                <marker date="1526509084000" expanded="false" signature="648:780" ph="..." />
+                <marker date="1526509084000" expanded="true" signature="803:14112" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="960:14110" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1006:1068" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1018:1062" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1122:1161" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1459:1637" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1511:1631" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1541:1588" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="2377:2798" ph="[...]" />
+                <marker date="1526509084000" expanded="true" signature="3011:3185" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="3067:3179" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="3652:3797" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="3837:4069" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="3921:3966" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4109:4769" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4135:4467" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4171:4228" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4228:4392" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4315:4382" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4496:4568" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4617:4763" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4651:4755" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="4775:5035" ph="/* These versions of GetPalmRotation &amp; CalculateRotation return the opposite vector compared to LeapUnityExtensio ... */" />
+                <marker date="1526509084000" expanded="true" signature="5082:5294" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="5109:5198" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="5215:5254" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="5356:5505" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="5652:6091" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="6286:6663" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="6800:9610" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="7213:7263" ph="/* find palm by name ... */" />
+                <marker date="1526509084000" expanded="true" signature="7560:7600" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="7600:7790" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="7655:7782" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="7731:7772" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="7808:7843" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="7860:9604" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="7904:9596" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="8113:9586" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="8201:8406" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="8493:8698" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="8786:8994" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="9080:9282" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="9369:9574" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="9736:10049" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="9852:10043" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="10177:10490" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="10293:10484" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="10702:11333" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="11052:11114" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="11471:11767" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="11890:12482" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="12080:12175" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="12220:12315" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="12360:12455" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="12620:12833" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="12702:12827" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="13027:13290" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="13122:13284" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="13349:13515" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="13461:13509" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="13584:13762" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="13697:13756" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="13793:14106" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="13855:14018" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="14057:14100" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/LeapHandsAutoRig.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+              <folding>
+                <marker date="1526074012000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+                <marker date="1526074012000" expanded="false" signature="648:739" ph="..." />
+                <marker date="1526074012000" expanded="true" signature="762:16956" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="947:16954" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="2631:2839" ph="/* AutoRig() Calls AutoRigMecanim() if a Unity Avatar exists.  Otherwise, AutoRigByName() is called. ... */" />
+                <marker date="1526074012000" expanded="true" signature="2895:3481" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="3075:3452" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="3125:3276" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="3276:3444" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="3636:3868" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="3678:3777" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="3873:4033" ph="/* Uses transform names to discover and assign RiggedHands scripts, ... */" />
+                <marker date="1526074012000" expanded="true" signature="4094:7052" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="4523:4634" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="4593:4626" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="4661:5538" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="5611:5723" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="5682:5715" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="5750:6628" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="6635:6854" ph="/* Find palms and assign to RiggedHands ... */" />
+                <marker date="1526074012000" expanded="true" signature="6914:6964" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="7058:7301" ph="/* Uses Mecanim transform mapping to find hands and assign RiggedHands scripts ... */" />
+                <marker date="1526074012000" expanded="true" signature="7364:9595" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="7781:7848" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="8225:8292" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="9216:9266" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="9706:13531" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="9735:11165" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="11165:12831" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="13643:14105" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="13776:13819" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="14034:14099" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="14141:16344" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="14245:14378" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="14403:14536" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="14569:14718" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="14751:14900" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="14931:15076" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="15108:15255" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="15288:15437" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="15470:15619" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="15652:15801" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="15832:15977" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="16009:16156" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="16189:16338" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="16484:16716" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="16528:16710" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="16839:16950" ph="{...}" />
+                <marker date="1526074012000" expanded="true" signature="16879:16944" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <marker date="1559733925345" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+                <marker date="1559733925345" expanded="true" signature="648:749" ph="..." />
+                <marker date="1559733925345" expanded="true" signature="772:9558" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="905:9556" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2346:2408" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2358:2402" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2451:2519" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2463:2499" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2574:2600" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2641:2668" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2718:2745" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2783:2934" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2814:2928" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="2966:2997" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="3036:3388" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="3087:3229" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="3432:6466" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="3518:3586" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="3618:3732" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="3826:4105" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="3864:4097" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="4113:4264" ph="/* Now we just have a few more spheres for the hands ... */" />
+                <marker date="1559733925345" expanded="true" signature="4744:5619" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="5700:5993" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="5738:5985" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="6076:6311" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="6514:6563" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="6625:7068" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="7122:7567" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="7613:7682" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="7732:7783" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="7854:7904" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="8027:9552" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="8181:8211" ph="{...}" />
+                <marker date="1559733925345" expanded="true" signature="8587:9295" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-285">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <marker date="1559734099677" expanded="false" signature="6:96" ph="..." />
+                <marker date="1559734099677" expanded="true" signature="153:429" ph="{...}" />
+                <marker date="1559734099677" expanded="true" signature="249:330" ph="{...}" />
+                <marker date="1559734099677" expanded="true" signature="386:425" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -212,11 +361,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/HandModelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnableEventRelay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/LeapHandsAutoRig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Materials/Transparent Specular.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/PolyHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LocalChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NetHandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -227,7 +379,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/myGameSetup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PhotonPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NetworkConnectionManagar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonPlayer.cs" />
@@ -237,6 +388,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnableEventRelay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NetHandEnableDisable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" />
+        <option value="$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" />
       </list>
     </option>
   </component>
@@ -252,13 +407,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
     </panes>
@@ -315,12 +470,14 @@
       <workItem from="1558626450564" duration="1718000" />
       <workItem from="1559034213644" duration="10847000" />
       <workItem from="1559645116222" duration="5723000" />
-      <workItem from="1559662752483" duration="930000" />
+      <workItem from="1559662752483" duration="1553000" />
+      <workItem from="1559725017394" duration="8512000" />
+      <workItem from="1559741950992" duration="4070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20214000" />
+    <option name="totallyTimeSpent" value="33419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +492,7 @@
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579491" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2619237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -537,68 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <folding>
-            <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-            <marker date="1526509084000" expanded="false" signature="648:749" ph="..." />
-            <marker date="1526509084000" expanded="true" signature="772:9554" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="905:9552" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2346:2408" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2358:2402" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2451:2519" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2463:2499" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2574:2600" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2641:2668" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2718:2745" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2783:2934" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2814:2928" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="2966:2997" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3036:3388" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3087:3229" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3428:6462" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3514:3582" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3614:3728" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3822:4101" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="3860:4093" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="4109:4260" ph="/* Now we just have a few more spheres for the hands ... */" />
-            <marker date="1526509084000" expanded="true" signature="4740:5615" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="5696:5989" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="5734:5981" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="6072:6307" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="6510:6559" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="6621:7064" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7118:7563" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7609:7678" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7728:7779" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="7850:7900" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="8023:9548" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="8177:8207" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="8583:9291" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <marker date="1559037394849" expanded="true" signature="6:119" ph="..." />
-            <marker date="1559037394849" expanded="true" signature="174:1747" ph="{...}" />
-            <marker date="1559037394849" expanded="true" signature="341:375" ph="{...}" />
-            <marker date="1559037394849" expanded="true" signature="394:495" ph="{...}" />
-            <marker date="1559037394849" expanded="true" signature="544:705" ph="{...}" />
-            <marker date="1559037394849" expanded="true" signature="744:871" ph="{...}" />
-            <marker date="1559037394849" expanded="true" signature="950:1071" ph="{...}" />
-            <marker date="1559037394849" expanded="true" signature="1094:1374" ph="{...}" />
-            <marker date="1559037394849" expanded="true" signature="1453:1579" ph="{...}" />
-            <marker date="1559037394849" expanded="true" signature="1620:1743" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandEnableDisable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -656,9 +751,257 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <marker date="1559037978536" expanded="true" signature="6:171" ph="..." />
+            <marker date="1559037978536" expanded="true" signature="242:2102" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="428:773" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="471:527" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="540:722" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="591:712" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="791:844" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="881:1025" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="1063:1211" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="1251:1520" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="1328:1469" ph="/* photonPlayers = PhotonNetwork.PlayerList; ... */" />
+            <marker date="1559037978536" expanded="true" signature="1550:1664" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="1730:1909" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="1823:1903" ph="{...}" />
+            <marker date="1559037978536" expanded="true" signature="1942:2100" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <marker date="1559047458661" expanded="true" signature="6:92" ph="..." />
+            <marker date="1559047458661" expanded="true" signature="132:374" ph="{...}" />
+            <marker date="1559047458661" expanded="true" signature="232:331" ph="{...}" />
+            <marker date="1559047458661" expanded="true" signature="272:325" ph="{...}" />
+            <marker date="1559047458661" expanded="true" signature="349:370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <marker date="1559660771157" expanded="true" signature="6:110" ph="..." />
+            <marker date="1559660771157" expanded="true" signature="155:608" ph="{...}" />
+            <marker date="1559660771157" expanded="true" signature="242:364" ph="{...}" />
+            <marker date="1559660771157" expanded="true" signature="422:606" ph="{...}" />
+            <marker date="1559660771157" expanded="true" signature="451:600" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LocalChecker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1559660491758" expanded="false" signature="6:96" ph="..." />
+            <marker date="1559660491758" expanded="true" signature="139:455" ph="{...}" />
+            <marker date="1559660491758" expanded="true" signature="237:374" ph="{...}" />
+            <marker date="1559660491758" expanded="true" signature="307:368" ph="{...}" />
+            <marker date="1559660491758" expanded="true" signature="432:453" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnableEventRelay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NetHandEnableDisable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding>
+            <marker date="1559730021336" expanded="true" signature="6:119" ph="..." />
+            <marker date="1559730021336" expanded="true" signature="174:1751" ph="{...}" />
+            <marker date="1559730021336" expanded="true" signature="341:375" ph="{...}" />
+            <marker date="1559730021336" expanded="true" signature="394:495" ph="{...}" />
+            <marker date="1559730021336" expanded="true" signature="544:705" ph="{...}" />
+            <marker date="1559730021336" expanded="true" signature="744:871" ph="{...}" />
+            <marker date="1559730021336" expanded="true" signature="950:1071" ph="{...}" />
+            <marker date="1559730021336" expanded="true" signature="1094:1378" ph="{...}" />
+            <marker date="1559730021336" expanded="true" signature="1457:1583" ph="{...}" />
+            <marker date="1559730021336" expanded="true" signature="1624:1747" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1559661183144" expanded="false" signature="6:113" ph="..." />
+            <marker date="1559661183144" expanded="true" signature="156:622" ph="{...}" />
+            <marker date="1559661183144" expanded="true" signature="235:619" ph="{...}" />
+            <marker date="1559661183144" expanded="true" signature="381:613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" column="101" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="101" />
+          <folding>
+            <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+            <marker date="1526509084000" expanded="false" signature="648:780" ph="..." />
+            <marker date="1526509084000" expanded="true" signature="803:14112" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="960:14110" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1006:1068" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1018:1062" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1122:1161" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1459:1637" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1511:1631" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1541:1588" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="2377:2798" ph="[...]" />
+            <marker date="1526509084000" expanded="true" signature="3011:3185" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="3067:3179" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="3652:3797" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="3837:4069" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="3921:3966" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4109:4769" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4135:4467" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4171:4228" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4228:4392" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4315:4382" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4496:4568" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4617:4763" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4651:4755" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="4775:5035" ph="/* These versions of GetPalmRotation &amp; CalculateRotation return the opposite vector compared to LeapUnityExtensio ... */" />
+            <marker date="1526509084000" expanded="true" signature="5082:5294" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="5109:5198" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="5215:5254" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="5356:5505" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="5652:6091" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="6286:6663" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="6800:9610" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="7213:7263" ph="/* find palm by name ... */" />
+            <marker date="1526509084000" expanded="true" signature="7560:7600" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="7600:7790" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="7655:7782" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="7731:7772" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="7808:7843" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="7860:9604" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="7904:9596" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="8113:9586" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="8201:8406" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="8493:8698" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="8786:8994" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="9080:9282" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="9369:9574" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="9736:10049" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="9852:10043" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="10177:10490" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="10293:10484" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="10702:11333" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="11052:11114" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="11471:11767" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="11890:12482" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="12080:12175" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="12220:12315" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="12360:12455" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="12620:12833" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="12702:12827" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="13027:13290" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="13122:13284" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="13349:13515" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="13461:13509" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="13584:13762" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="13697:13756" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="13793:14106" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="13855:14018" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="14057:14100" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/LeapHandsAutoRig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+          <folding>
+            <marker date="1526074012000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+            <marker date="1526074012000" expanded="false" signature="648:739" ph="..." />
+            <marker date="1526074012000" expanded="true" signature="762:16956" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="947:16954" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="2631:2839" ph="/* AutoRig() Calls AutoRigMecanim() if a Unity Avatar exists.  Otherwise, AutoRigByName() is called. ... */" />
+            <marker date="1526074012000" expanded="true" signature="2895:3481" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="3075:3452" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="3125:3276" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="3276:3444" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="3636:3868" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="3678:3777" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="3873:4033" ph="/* Uses transform names to discover and assign RiggedHands scripts, ... */" />
+            <marker date="1526074012000" expanded="true" signature="4094:7052" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="4523:4634" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="4593:4626" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="4661:5538" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="5611:5723" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="5682:5715" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="5750:6628" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="6635:6854" ph="/* Find palms and assign to RiggedHands ... */" />
+            <marker date="1526074012000" expanded="true" signature="6914:6964" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="7058:7301" ph="/* Uses Mecanim transform mapping to find hands and assign RiggedHands scripts ... */" />
+            <marker date="1526074012000" expanded="true" signature="7364:9595" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="7781:7848" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="8225:8292" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="9216:9266" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="9706:13531" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="9735:11165" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="11165:12831" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="13643:14105" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="13776:13819" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="14034:14099" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="14141:16344" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="14245:14378" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="14403:14536" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="14569:14718" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="14751:14900" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="14931:15076" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="15108:15255" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="15288:15437" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="15470:15619" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="15652:15801" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="15832:15977" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="16009:16156" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="16189:16338" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="16484:16716" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="16528:16710" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="16839:16950" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="16879:16944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1559734099677" expanded="false" signature="6:96" ph="..." />
+            <marker date="1559734099677" expanded="true" signature="153:429" ph="{...}" />
+            <marker date="1559734099677" expanded="true" signature="249:330" ph="{...}" />
+            <marker date="1559734099677" expanded="true" signature="386:425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
+        <state relative-caret-position="495">
           <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
           <folding>
             <marker date="1557137394000" expanded="true" signature="0:466" ph="/* PhotonHandler is a runtime MonoBehaviour to include PUN into the main loop. ... */" />
@@ -688,108 +1031,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnableEventRelay.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
-            <marker date="1559663670399" expanded="true" signature="6:70" ph="..." />
-            <marker date="1559663670399" expanded="true" signature="117:304" ph="{...}" />
-            <marker date="1559663670399" expanded="true" signature="203:241" ph="{...}" />
-            <marker date="1559663670399" expanded="true" signature="263:302" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+            <marker date="1559733925345" expanded="true" signature="648:749" ph="..." />
+            <marker date="1559733925345" expanded="true" signature="772:9558" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="905:9556" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2346:2408" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2358:2402" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2451:2519" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2463:2499" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2574:2600" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2641:2668" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2718:2745" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2783:2934" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2814:2928" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="2966:2997" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="3036:3388" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="3087:3229" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="3432:6466" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="3518:3586" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="3618:3732" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="3826:4105" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="3864:4097" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="4113:4264" ph="/* Now we just have a few more spheres for the hands ... */" />
+            <marker date="1559733925345" expanded="true" signature="4744:5619" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="5700:5993" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="5738:5985" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="6076:6311" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="6514:6563" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="6625:7068" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="7122:7567" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="7613:7682" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="7732:7783" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="7854:7904" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="8027:9552" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="8181:8211" ph="{...}" />
+            <marker date="1559733925345" expanded="true" signature="8587:9295" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/PolyHand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state>
           <folding>
-            <marker date="1559660771157" expanded="true" signature="6:110" ph="..." />
-            <marker date="1559660771157" expanded="true" signature="155:608" ph="{...}" />
-            <marker date="1559660771157" expanded="true" signature="242:364" ph="{...}" />
-            <marker date="1559660771157" expanded="true" signature="422:606" ph="{...}" />
-            <marker date="1559660771157" expanded="true" signature="451:600" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+            <marker date="1526074012000" expanded="false" signature="648:698" ph="..." />
+            <marker date="1526074012000" expanded="true" signature="721:1939" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="725:887" ph="/* A deforming, very low poly count hand. ... */" />
+            <marker date="1526074012000" expanded="true" signature="924:1934" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="970:1032" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="982:1026" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1086:1112" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1216:1444" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1294:1438" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1328:1430" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1551:1725" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1629:1719" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1663:1711" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1803:1930" ph="{...}" />
+            <marker date="1526074012000" expanded="true" signature="1829:1924" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LocalChecker.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="903">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
-            <marker date="1559660491758" expanded="false" signature="6:96" ph="..." />
-            <marker date="1559660491758" expanded="true" signature="139:455" ph="{...}" />
-            <marker date="1559660491758" expanded="true" signature="237:374" ph="{...}" />
-            <marker date="1559660491758" expanded="true" signature="307:368" ph="{...}" />
-            <marker date="1559660491758" expanded="true" signature="432:453" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <marker date="1559047458661" expanded="true" signature="6:92" ph="..." />
-            <marker date="1559047458661" expanded="true" signature="132:374" ph="{...}" />
-            <marker date="1559047458661" expanded="true" signature="232:331" ph="{...}" />
-            <marker date="1559047458661" expanded="true" signature="272:325" ph="{...}" />
-            <marker date="1559047458661" expanded="true" signature="349:370" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <marker date="1559037978536" expanded="true" signature="6:171" ph="..." />
-            <marker date="1559037978536" expanded="true" signature="242:2102" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="428:773" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="471:527" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="540:722" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="591:712" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="791:844" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="881:1025" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="1063:1211" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="1251:1520" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="1328:1469" ph="/* photonPlayers = PhotonNetwork.PlayerList; ... */" />
-            <marker date="1559037978536" expanded="true" signature="1550:1664" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="1730:1909" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="1823:1903" ph="{...}" />
-            <marker date="1559037978536" expanded="true" signature="1942:2100" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <marker date="1559661183144" expanded="false" signature="6:113" ph="..." />
-            <marker date="1559661183144" expanded="true" signature="156:622" ph="{...}" />
-            <marker date="1559661183144" expanded="true" signature="235:619" ph="{...}" />
-            <marker date="1559661183144" expanded="true" signature="381:613" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NetHandEnableDisable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1559663806478" expanded="false" signature="6:96" ph="..." />
-            <marker date="1559663806478" expanded="true" signature="147:564" ph="{...}" />
-            <marker date="1559663806478" expanded="true" signature="335:483" ph="{...}" />
-            <marker date="1559663806478" expanded="true" signature="405:477" ph="{...}" />
-            <marker date="1559663806478" expanded="true" signature="541:562" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="6:200" ph="..." />
+            <marker date="1559745767262" expanded="true" signature="242:2745" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="501:1350" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="584:1302" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="1375:2148" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="1445:2142" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="1654:1841" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="1858:1991" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="2199:2380" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="2290:2374" ph="/* GetComponent&lt;MeshRenderer&gt;().enabled = show; ... */" />
+            <marker date="1559745767262" expanded="true" signature="2407:2743" ph="{...}" />
+            <marker date="1559745767262" expanded="true" signature="2436:2737" ph="{...}" />
           </folding>
         </state>
       </provider>

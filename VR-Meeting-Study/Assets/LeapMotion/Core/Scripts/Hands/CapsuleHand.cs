@@ -107,7 +107,7 @@ namespace Leap.Unity {
         _rightColorIndex = (_rightColorIndex + 1) % _rightColorList.Length;
       }
     }
-
+    
     public override void UpdateHand() {
       if (_spherePositions == null || _spherePositions.Length != TOTAL_JOINT_COUNT) {
         _spherePositions = new Vector3[TOTAL_JOINT_COUNT];
