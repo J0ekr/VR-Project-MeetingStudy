@@ -34,5 +34,10 @@ MonoBehaviour:
   - RespawnSpaceship
   - showHand
   - UpdateHand
+  - HandFinish
+  - HandReset
+  - HandEnters
+  - HandLeaves
+  - map
   DisableAutoOpenWizard: 1
   ShowSettings: 1
