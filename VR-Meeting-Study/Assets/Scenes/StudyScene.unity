@@ -206,7 +206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4050235663507654, guid: dae2e2be31c98324eac460f702db97e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 4050235663507654, guid: dae2e2be31c98324eac460f702db97e9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -278,7 +278,17 @@ PrefabInstance:
     - target: {fileID: 114121827862505544, guid: dae2e2be31c98324eac460f702db97e9,
         type: 3}
       propertyPath: _roomScaleHeightOffset
-      value: 3.2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114121827862505544, guid: dae2e2be31c98324eac460f702db97e9,
+        type: 3}
+      propertyPath: recenterOnStart
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114121827862505544, guid: dae2e2be31c98324eac460f702db97e9,
+        type: 3}
+      propertyPath: stepSize
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae2e2be31c98324eac460f702db97e9, type: 3}

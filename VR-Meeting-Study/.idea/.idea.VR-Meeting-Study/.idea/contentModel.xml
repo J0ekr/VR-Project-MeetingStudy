@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="HeadPosition.cs" t="Include" />
         <e p="LeapMotion" t="Include">
           <e p="Core" t="Include">
             <e p="Dependencies.txt" t="Include" />
@@ -494,11 +495,9 @@
             </e>
           </e>
         </e>
-        <e p="LocalChecker.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="Transparent Specular.shader" t="Include" />
         </e>
-        <e p="myPhotonIDManager.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
             <e p="Code" t="Include">
@@ -832,9 +831,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="IKControl.cs" t="Include" />
-          <e p="LocalPlayer.cs" t="Include" />
-          <e p="MapHandMovement.cs" t="Include" />
           <e p="Photon" t="Include">
             <e p="GameControllers" t="Include">
               <e p="PhotonPlayer.cs" t="Include" />
@@ -845,7 +841,6 @@
             <e p="PhotonLobby.cs" t="Include" />
             <e p="PhotonRoom.cs" t="Include" />
             <e p="PlayerHand.cs" t="Include" />
-            <e p="PlayerMovement.cs" t="Include" />
           </e>
         </e>
         <e p="SteamVR" t="Include">

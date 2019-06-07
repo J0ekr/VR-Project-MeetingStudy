@@ -7,6 +7,7 @@ using Photon.Realtime;
 using Leap.Unity;
 using Leap.Unity.Interaction;
 using System.Linq;
+using TMPro;
 
 
 public class PlayerHand : MonoBehaviour
@@ -25,11 +26,16 @@ public class PlayerHand : MonoBehaviour
     public GameObject[] LeapBones;
     public GameObject[] AvatarBones;
 
+    private Quaternion leap_quad = new Quaternion(0, 0, 1, 0);
+
     public bool isConnected = false;
+    
+    public float[] distances = new float[6];
 
     private void Awake()
     {
         PV = GetComponent<PhotonView>();
+       
     }
 
 
@@ -106,6 +112,11 @@ public class PlayerHand : MonoBehaviour
 
             AvatarBones[1].GetComponent<SkinnedMeshRenderer>().enabled = false;
             
+            for (int i = 0; i < distances.Length; i++)
+            {
+                distances[i] = Vector3.Distance(palm.transform.position, AvatarBones[3].transform.position);
+            }
+            
             
 
         }
@@ -114,40 +125,34 @@ public class PlayerHand : MonoBehaviour
     private void map(GameObject[] leap, GameObject[] avatar)
     {
         avatar[2].transform.position = leap[3].transform.position; //palm
-        avatar[9].transform.position = leap[4].transform.position; //index_meta
-        avatar[10].transform.position = leap[5].transform.position; //index_1
-        avatar[11].transform.position = leap[6].transform.position; //index_2
-        avatar[12].transform.position = leap[9].transform.position; //mid_meta
-        avatar[13].transform.position = leap[10].transform.position; //mid_1
-        avatar[14].transform.position = leap[11].transform.position; //mid_2
-        avatar[15].transform.position = leap[14].transform.position; //pinky_meta
-        avatar[16].transform.position = leap[15].transform.position; //pinky_1
-        avatar[17].transform.position = leap[16].transform.position; //pinky_2
-        avatar[18].transform.position = leap[19].transform.position; //ring_meta
-        avatar[19].transform.position = leap[20].transform.position; //ring_1
-        avatar[20].transform.position = leap[21].transform.position; //ring_2
         avatar[21].transform.position = leap[24].transform.position; //thumb_meta
-        avatar[22].transform.position = leap[25].transform.position; //thumb_1
-        avatar[23].transform.position = leap[26].transform.position; //thumb_2
 
-        avatar[2].transform.rotation = leap[3].transform.rotation; //palm
-        avatar[9].transform.rotation = leap[4].transform.rotation; //index_meta
-        avatar[10].transform.rotation = leap[5].transform.rotation;
-        ; //index_1
-        avatar[11].transform.rotation = leap[6].transform.rotation; //index_2
-        avatar[12].transform.rotation = leap[9].transform.rotation; //mid_meta
-        avatar[13].transform.rotation = leap[10].transform.rotation; //mid_1
-        avatar[14].transform.rotation = leap[11].transform.rotation; //mid_2
-        avatar[15].transform.rotation = leap[14].transform.rotation; //pinky_meta
-        avatar[16].transform.rotation = leap[15].transform.rotation; //pinky_1
-        avatar[17].transform.rotation = leap[16].transform.rotation; //pinky_2
-        avatar[18].transform.rotation = leap[19].transform.rotation; //ring_meta
-        avatar[19].transform.rotation = leap[20].transform.rotation; //ring_1
-        avatar[20].transform.rotation = leap[21].transform.rotation; //ring_2
-        avatar[21].transform.rotation = leap[24].transform.rotation; //thumb_meta
-        avatar[22].transform.rotation = leap[25].transform.rotation; //thumb_1
-        avatar[23].transform.rotation = leap[26].transform.rotation; //thumb_2
-    }
+        
+        //index, mid, pinky, ring, thumb
+        int[] leap_index = new int[] { 5, 10, 15, 20, 24 };
+        int[] avatar_index = new int[] { 9, 12, 15, 18, 21 };
+
+        //Loops over fingers to correct their rotation
+        for (int i = 0; i < leap_index.Length; i++)
+        {
+            //loops over bones
+            for (int j = 0; j < 3; j++)
+            {
+                avatar[avatar_index[i] + j].transform.rotation = leap[leap_index[i] + j].transform.rotation * leap_quad;
+            }
+        }
+        avatar[2].transform.rotation = leap[3].transform.rotation * leap_quad ; //palm
+
+        //TODO: fix this, arm rotation and position
+//        avatar[3].transform.position = leap[2].transform.position + distances[0] * leap[2].transform.up;
+        //avatar[3].transform.rotation = leap[2].transform.rotation * Quaternion.Euler(180, 0, -90);
+//        for (int i = 0; i < 5; i++)
+//        {
+//            avatar[4 + i].transform.rotation = avatar[3].transform.rotation * Quaternion.Euler(i * 18, 0, 0);
+//            avatar[4 + i].transform.position = leap[2].transform.position + distances[i + 1] * leap[2].transform.up;
+//        }
+       
+    } 
 
     [PunRPC]
     private void showHand(bool show)

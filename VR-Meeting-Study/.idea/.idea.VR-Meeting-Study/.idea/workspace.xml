@@ -2,13 +2,388 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1543a0d-eb9f-4799-aba4-1d6f2dd87976" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/Cornea.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/Cornea.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/No Name.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/No Name.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_arms_1004.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_arms_1004.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_eyerefl01_1008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_eyerefl01_1008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_eyes01_1007.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_eyes01_1007.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_face_1001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_face_1001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_lashes_1006.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_lashes_1006.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_legs_1003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_legs_1003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_mouth_1005.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_mouth_1005.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_torso_1002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/RyEddie_torso_1002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/sNewportPants01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/sNewportPants01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/sNewportShirt01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/sNewportShirt01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/sNewportShoes01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/Materials/sNewportShoes01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_arms_1004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_arms_1004.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_eyerefl01_1008.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_eyerefl01_1008.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_eyes01_1007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_eyes01_1007.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_face_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_face_1001.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_lashes_1006.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_lashes_1006.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_legs_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_legs_1003.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_mouth_1005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_mouth_1005.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_torso_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/RyEddie_torso_1002.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportPants01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportPants01.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportPants01B.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportPants01B.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportPants01S.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportPants01S.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShirt01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShirt01.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShirtB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShirtB.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShirtS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShirtS.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShoes01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShoes01.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShoesB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShoesB.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShoesS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sNewportShoesS.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sRef3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.fbm/sRef3.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_arms_1004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_arms_1004.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_eyerefl01_1008.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_eyerefl01_1008.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_eyes01_1007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_eyes01_1007.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_face_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_face_1001.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_lashes_1006.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_lashes_1006.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_legs_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_legs_1003.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_mouth_1005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_mouth_1005.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_torso_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/RyEddie_torso_1002.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportPants01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportPants01.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportPants01B.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportPants01B.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportPants01S.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportPants01S.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShirt01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShirt01.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShirtB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShirtB.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShirtS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShirtS.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShoes01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShoes01.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShoesB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShoesB.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShoesS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sNewportShoesS.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sRef3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Avatar/PointingAvatar.images/sRef3.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/FBX/lampWall01_.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/FBX/lampWall01_.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Materials/Lamp_OFF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Materials/Lamp_OFF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Materials/Lamp_ON.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Materials/Lamp_ON.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Prefab/Lamp_OFF.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Prefab/Lamp_OFF.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Prefab/Lamp_ON.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Prefab/Lamp_ON.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Textures/lampWall01_phong1_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Textures/lampWall01_phong1_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Textures/lampWall01_phong1_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Textures/lampWall01_phong1_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Textures/lampWall01_phong1_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LampWall/Textures/lampWall01_phong1_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LocalChecker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LocalChecker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Prefabs/officeChair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Prefabs/officeChair.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Fbx/officeChair.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Fbx/officeChair.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/BasChaise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/BasChaise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/alu.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/alu.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/dossierChaise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/dossierChaise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/leather_brown 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/leather_brown 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/leather_brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/leather_brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/BasChaise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/BasChaise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/alu.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/alu.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/dossierChaise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/dossierChaise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/leather_brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/leather_brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/plasticNoir.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/officeChair/plasticNoir.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/plasticNoir.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Materials/plasticNoir.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Textures/leather_brown 1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Chairs and sofas pack/Chairs and sofas pack/Src/Textures/leather_brown 1.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/FBX/lampWall01_.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/FBX/lampWall01_.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Materials/Lamp_OFF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Materials/Lamp_OFF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Materials/Lamp_ON.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Materials/Lamp_ON.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Prefab/Lamp_OFF.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Prefab/Lamp_OFF.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Prefab/Lamp_ON.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Prefab/Lamp_ON.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Textures/lampWall01_phong1_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Textures/lampWall01_phong1_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Textures/lampWall01_phong1_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Textures/lampWall01_phong1_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Textures/lampWall01_phong1_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/LampWall/Textures/lampWall01_phong1_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/PlayerInstance.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/PlayerInstance.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/PlayerObj.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/PlayerObj.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/PlayerVR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/PlayerVR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/PlayerVR1 Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/PlayerVR1 Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chair_01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chair_01/CHH222.MAX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chair_01/CHH222.MAX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chair_01/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chair_01/Materials/Chrome Med.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chair_01/Materials/Chrome Med.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chair_01/Materials/LEATHER.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chair_01/Materials/LEATHER.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Prefabs/officeChair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Prefabs/officeChair.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Fbx/officeChair.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Fbx/officeChair.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/BasChaise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/BasChaise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/alu.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/alu.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/dossierChaise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/dossierChaise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/leather_brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/leather_brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/BasChaise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/BasChaise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/alu.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/alu.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/dossierChaise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/dossierChaise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/leather_brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/leather_brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/plasticNoir.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/plasticNoir.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/plasticNoir.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Materials/plasticNoir.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Textures/leather_brown 1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Chairs and sofas pack/Src/Textures/leather_brown 1.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Materials/Teachers_Board.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Materials/Teachers_Board.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/100W_WHITE.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/100W_WHITE.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/60W_WHITE.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/60W_WHITE.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/Matte Chrome.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/Matte Chrome.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/marble_black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/marble_black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/rubber_blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/Materials/rubber_blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/monitor.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Monitor_01/monitor.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/Materials/texture_tv.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/Materials/texture_tv.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/TVset.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/TVset.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/model/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/model/Materials/09 - Default.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/model/Materials/09 - Default.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/model/TVset.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/model/TVset.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/textures/texture_tv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/textures/texture_tv.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/textures/texture_tv_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/textures/texture_tv_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/textures/texture_tv_spec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/TV/textures/texture_tv_spec.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Teachers_Board.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/Teachers_Board.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/WhiteBoard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/WhiteBoard/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/WhiteBoard/Materials/Teachers_Board.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/WhiteBoard/Materials/Teachers_Board.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/WhiteBoard/Teachers_Board.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/WhiteBoard/Teachers_Board.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/WhiteBoard/Teachers_Board.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/WhiteBoard/Teachers_Board.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/A4_fbx.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/A4_fbx.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Body.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Cable Head.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Cable Head.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Cable.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Cable.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Keys.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Keys.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Lights.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Lights.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/M_Key Body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/M_Key Body.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/M_Keys.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/M_Keys.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Metal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/keyboard_01/Materials/Metal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Maps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Maps/Table_Normals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Maps/Table_Normals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Maps/Table_Occlusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Maps/Table_Occlusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Material/Table_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Material/Table_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Model/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Model/Materials/_LP_LPwire_135110008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Model/Materials/_LP_LPwire_135110008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Model/Table.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Model/Table.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Table.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_01/Table.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_02/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_02/Materials/MetalChrome.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_02/Materials/MetalChrome.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_02/Materials/WHITE PLASTIC.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_02/Materials/WHITE PLASTIC.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_02/TBO008.MAX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Room/Room/table_02/TBO008.MAX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/GameLobby.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/GameLobby.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/GamerMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/GamerMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/GamerScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/GamerScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/Menu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/Menu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/Network.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/Network.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/StudyScene_OLD.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/StudyScene_OLD.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/newStudyScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/Scenes/newStudyScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/myPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/myPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/back.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/back.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/bot.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/bot.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/front.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/front.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/l.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/l.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/r.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/r.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/sky,startday.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/sky,startday.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/up.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OLD/skyb1/up.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerObj.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerObj.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonHands.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonHands.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonPointingAvatar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonPointingAvatar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PointingAvatar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PointingAvatar.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LocalPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LocalPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapHandMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapHandMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IKControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IKControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LocalPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LocalPlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapHandMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapHandMovement.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myPhotonIDManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/myPhotonIDManager.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,440 +393,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+            <state relative-caret-position="561">
+              <caret line="126" column="73" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="73" />
               <folding>
-                <marker date="1559913120464" expanded="true" signature="6:200" ph="..." />
-                <marker date="1559913120464" expanded="true" signature="242:6607" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="614:667" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="758:1018" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="904:970" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="1023:1635" ph="/* public void addPhotonViews(GameObject obj) ... */" />
-                <marker date="1559913120464" expanded="true" signature="1660:3246" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="1746:1774" ph="/* if (PV.IsMine) ... */" />
-                <marker date="1559913120464" expanded="true" signature="1805:2747" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="2791:2978" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="2995:3128" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="3313:5856" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="5907:6179" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="6025:6173" ph="/* TODO: set parent game object active ... */" />
-                <marker date="1559913120464" expanded="true" signature="6206:6605" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="6289:6590" ph="{...}" />
-                <marker date="1559913120464" expanded="true" signature="6434:6580" ph="{...}" />
+                <marker date="1559921058598" expanded="false" signature="6:213" ph="..." />
+                <marker date="1559921058598" expanded="true" signature="255:5743" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="741:802" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="893:1153" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="1039:1105" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="1158:1770" ph="/* public void addPhotonViews(GameObject obj) ... */" />
+                <marker date="1559921058598" expanded="true" signature="1795:3586" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="1881:1909" ph="/* if (PV.IsMine) ... */" />
+                <marker date="1559921058598" expanded="true" signature="1940:2882" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="2926:3113" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="3130:3263" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="3412:3549" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="3653:4991" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="4096:4336" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="4177:4326" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="4433:4977" ph="/* TODO: fix this, arm rotation and position ... */" />
+                <marker date="1559921058598" expanded="true" signature="5043:5315" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="5161:5309" ph="/* TODO: set parent game object active ... */" />
+                <marker date="1559921058598" expanded="true" signature="5342:5741" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="5425:5726" ph="{...}" />
+                <marker date="1559921058598" expanded="true" signature="5570:5716" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="842" selection-start-line="842" selection-end-line="842" />
-              <folding>
-                <marker date="1557137537000" expanded="true" signature="0:449" ph="/* PhotonNetwork is the central class of the PUN package. ... */" />
-                <marker date="1557137537000" expanded="true" signature="472:96849" ph="{...}" />
-                <marker date="1557137537000" expanded="false" signature="485:792" ph="..." />
-                <marker date="1557137537000" expanded="true" signature="839:96847" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="1021:1091" ph="/// The photon view list. ... " />
-                <marker date="1557137537000" expanded="true" signature="1196:1443" ph="/// Gets the photon views. ... " />
-                <marker date="1557137537000" expanded="true" signature="1490:1612" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="1516:1601" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="2014:2610" ph="/// Registers an object for callbacks for the implemented callback-interfaces. ... " />
-                <marker date="1557137537000" expanded="true" signature="2670:3172" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="2718:2770" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="2909:3105" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="3183:3763" ph="/// Removes the target object from callbacks for its implemented callback-interfaces. ... " />
-                <marker date="1557137537000" expanded="true" signature="3826:4359" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="3902:3954" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="4093:4289" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="4411:4572" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="5116:5516" ph="/// An Object Pool can be used to keep and reuse instantiated object instances. Replaces Unity's default Instanti ... " />
-                <marker date="1557137537000" expanded="true" signature="5564:6070" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="5590:5654" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="5670:6060" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="5719:5949" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="5970:6046" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="6131:6791" ph="/// While enabled, the MonoBehaviours on which we call RPCs are cached, avoiding costly GetComponents&amp;lt;MonoBeha ... " />
-                <marker date="1557137537000" expanded="true" signature="7296:7768" ph="/// Represents the scene loading progress when using LoadLevel(). ... " />
-                <marker date="1557137537000" expanded="true" signature="7817:8240" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="7843:8230" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="7914:8032" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="8085:8169" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="8250:8541" ph="/// Called when &quot;this client&quot; left a room to clean up. ... " />
-                <marker date="1557137537000" expanded="true" signature="8587:9463" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="8709:8863" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="9369:9453" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="9474:9600" ph="/// Cleans up anything that was instantiated in-game (not loaded with the scene). ... " />
-                <marker date="1557137537000" expanded="true" signature="9699:10960" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="9722:10048" ph="/* if (tempInstantiationData.Count &gt; 0) ... */" />
-                <marker date="1557137537000" expanded="true" signature="10096:10708" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="10313:10546" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="10383:10528" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="10606:10694" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="10722:10846" ph="/* photonViewList is cleared of anything instantiated (so scene items are left inside) ... */" />
-                <marker date="1557137537000" expanded="true" signature="10971:11307" ph="/// Resets the PhotonView &quot;lastOnSerializeDataSent&quot; so that &quot;OnReliable&quot; synched PhotonViews send a complete stat ... " />
-                <marker date="1557137537000" expanded="true" signature="11365:11541" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="11444:11531" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="11586:11664" ph="/// Executes a received RPC event ... " />
-                <marker date="1557137537000" expanded="true" signature="11738:21886" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="11814:11997" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="12275:12362" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="12443:12982" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="12618:12822" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="12843:12968" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="12999:13084" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="13170:13254" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="13359:14311" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="13639:13921" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="13942:14273" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="14369:14634" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="14718:14901" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="15161:15229" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="15331:15893" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="15504:15879" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="15612:15706" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="15731:15835" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="16107:16197" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="16317:20296" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="16454:16618" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="16923:17162" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="17209:17275" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="17415:20282" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="17555:17633" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="17840:18533" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="17914:18070" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="18187:18477" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="18704:19080" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="18863:19024" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="19148:19980" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="19395:19924" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="20068:20264" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="20359:21876" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="20499:20971" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="20622:20710" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="20747:20837" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="20862:20953" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="21008:21580" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="21069:21306" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="21331:21562" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="21601:21862" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="21896:22302" ph="/// Check if all types match with parameters. We can have more paramters then types (allow last RPC type to be di ... " />
-                <marker date="1557137537000" expanded="true" signature="22406:23580" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="22485:22543" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="22620:23544" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="23437:23507" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="23599:23785" ph="/// Destroys all Instantiates and RPCs locally and (if not localOnly) sends EvDestroy(player) and clears related  ... " />
-                <marker date="1557137537000" expanded="true" signature="23863:25618" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="23904:24042" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="24071:24381" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="24582:24776" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="24665:24762" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="24968:25052" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="25066:25232" ph="/* with ownership transfer, some objects might lose their owner. ... */" />
-                <marker date="1557137537000" expanded="true" signature="25295:25608" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="25360:25594" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="25673:25879" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="25711:25816" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="25889:26335" ph="///Removes GameObject and the PhotonViews on it from local lists and optionally updates remotes. GameObject gets  ... " />
-                <marker date="1557137537000" expanded="true" signature="26416:29545" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="26454:26598" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="26799:26968" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="27434:28219" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="27582:27809" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="27949:28205" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="28309:28468" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="28602:29155" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="28694:28760" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="28945:29029" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="29061:29141" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="29216:29318" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="29962:30115" ph="/// Removes an instantiation event from the server's cache. Needs id and actorNr of player who instantiated. ... " />
-                <marker date="1557137537000" expanded="true" signature="30238:31129" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="31191:31697" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="31458:31687" ph="/* NetworkingClient.OpRaiseEvent(PunEvent.DestroyPlayer, evData, null, SendOptions.SendReliable); ... */" />
-                <marker date="1557137537000" expanded="true" signature="31745:32248" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="32008:32238" ph="/* NetworkingClient.OpRaiseEvent(PunEvent.DestroyPlayer, evData, null , SendOptions.SendReliable); ... */" />
-                <marker date="1557137537000" expanded="true" signature="32331:32975" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="32727:32965" ph="/* NetworkingClient.OpRaiseEvent(PunEvent.Instantiation, null, options, SendOptions.SendReliable); ... */" />
-                <marker date="1557137537000" expanded="true" signature="33049:33802" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="33876:34630" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="34696:34821" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="34881:35661" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="35022:35623" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="35195:35609" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="35308:35591" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="35373:35532" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="35728:37406" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="35778:35898" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="35936:36219" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="36384:37022" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="36565:36855" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="36876:36940" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="37297:37396" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="37417:37685" ph="/// Removes the RPCs of someone else (to be used as master). ... " />
-                <marker date="1557137537000" expanded="true" signature="37751:38267" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="38035:38257" ph="/* NetworkingClient.OpRaiseEvent(PunEvent.RPC, null, options, SendOptions.SendReliable); ... */" />
-                <marker date="1557137537000" expanded="true" signature="38277:38456" ph="/// Instead removing RPCs or Instantiates, this removed everything cached by the actor. ... " />
-                <marker date="1557137537000" expanded="true" signature="38530:38889" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="38942:39341" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="39533:40075" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="40206:40581" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="40343:40534" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="40997:41201" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="41211:41782" ph="/// Remove all buffered RPCs from server that were sent in the targetGroup, if this is the Master Client or if th ... " />
-                <marker date="1557137537000" expanded="true" signature="41838:42074" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="41911:42064" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="41966:42050" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="42085:42885" ph="/// Sets level prefix for PhotonViews instantiated later on. Don't set it if you need only one! ... " />
-                <marker date="1557137537000" expanded="true" signature="42940:43273" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="43048:43263" ph="/* TODO: should we really change the prefix for existing PVs?! better keep it! ... */" />
-                <marker date="1557137537000" expanded="true" signature="43284:43747" ph="/// RPC Hashtable Structure ... " />
-                <marker date="1557137537000" expanded="true" signature="44072:49791" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="44141:44224" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="44258:44411" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="44472:44617" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="44861:44945" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="45160:45260" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="45277:45353" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="45415:45501" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="45702:46354" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="45800:45886" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="45907:46315" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="46383:49781" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="48087:48207" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="48232:48500" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="48901:49021" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="49475:49595" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="49802:50544" ph="///Enable/disable receiving on given Interest Groups (applied to PhotonViews). ... " />
-                <marker date="1557137537000" expanded="true" signature="50632:52974" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="50725:51736" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="50786:51005" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="51026:51722" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="51123:51704" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="51236:51503" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="51568:51682" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="51775:52813" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="51835:52207" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="52022:52125" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="52228:52799" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="52324:52781" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="52436:52703" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="52858:52964" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="52985:53618" ph="///Enable/disable sending on given group (applied to PhotonViews) ... " />
-                <marker date="1557137537000" expanded="true" signature="53689:54007" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="53769:53900" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="53917:53997" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="54019:54672" ph="///Enable/disable sending on given groups (applied to PhotonViews) ... " />
-                <marker date="1557137537000" expanded="true" signature="54760:55381" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="54853:55092" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="54942:55078" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="55131:55371" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="55219:55357" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="55429:56702" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="55485:55679" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="55696:55815" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="56062:56250" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="56155:56236" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="56318:56435" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="56474:56692" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="56713:56971" ph="/// Defines how many OnPhotonSerialize()-calls might get summarized in one message. ... " />
-                <marker date="1557137537000" expanded="true" signature="57473:57821" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="57579:57663" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="57714:57815" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="57922:59665" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="58302:58528" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="58571:58667" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="58721:58786" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="58837:58950" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="58999:59153" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="59182:59321" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="59369:59659" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="59452:59602" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="60020:63271" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="60127:60179" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="60363:60415" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="60592:61172" ph="/* Format of the event's data object[]: ... */" />
-                <marker date="1557137537000" expanded="true" signature="61382:63054" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="61707:61773" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="61837:61934" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="62095:62161" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="62580:62830" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="62951:63040" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="63166:63261" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="63350:64035" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="63425:63477" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="64046:64186" ph="/* calls OnPhotonSerializeView (through ExecuteOnSerialize) ... */" />
-                <marker date="1557137537000" expanded="true" signature="64256:67927" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="64331:64388" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="65312:65369" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="65885:65951" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="66130:67081" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="66223:66672" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="66291:66372" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="66693:67011" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="67167:67891" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="67198:67422" ph="/* TODO: fix delta compression / comparison ... */" />
-                <marker date="1557137537000" expanded="true" signature="67937:68027" ph="/// Reads updates created by OnSerializeWrite ... " />
-                <marker date="1557137537000" expanded="true" signature="68139:71476" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="68283:68328" ph="/* debug: ... */" />
-                <marker date="1557137537000" expanded="true" signature="68412:68654" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="68720:68923" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="69043:69111" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="69200:70180" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="69422:69974" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="69616:69928" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="70194:71264" ph="/* TODO: re-check if ownership needs to be adjusted based on updates. ... */" />
-                <marker date="1557137537000" expanded="true" signature="71487:72049" ph="/* compresses currentContent by using NULL as value if currentContent equals previousContent ... */" />
-                <marker date="1557137537000" expanded="true" signature="72343:75160" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="72469:72595" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="72652:72792" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="73165:74267" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="73340:73560" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="73581:74253" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="73676:73873" ph="/* value changed, we don't replace it with null ... */" />
-                <marker date="1557137537000" expanded="true" signature="73913:74235" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="73999:74146" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="74405:74981" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="74498:74649" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="74764:74967" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="75276:76593" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="75347:75473" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="75487:75653" ph="/* Compression was applied (as data[1] == true) ... */" />
-                <marker date="1557137537000" expanded="true" signature="75706:75763" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="75928:76549" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="76046:76207" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="76256:76535" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="76604:76935" ph="/* startIndex should be the index of the first actual data-value (3 in PUN's case, as 0=viewId, 1=(bool)compresse ... */" />
-                <marker date="1557137537000" expanded="true" signature="77032:77683" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="77102:77159" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="77264:77322" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="77394:77647" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="77563:77633" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="77693:77876" ph="/// Returns true if both objects are almost identical. ... " />
-                <marker date="1557137537000" expanded="true" signature="77933:79671" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="77987:78066" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="78101:79635" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="78213:78514" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="78415:78496" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="78555:78856" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="78757:78838" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="78900:79217" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="79118:79199" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="79256:79548" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="79449:79530" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="79859:80456" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="79960:80018" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="80173:80419" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="80299:80405" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="80646:81706" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="80780:80832" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="80984:81036" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="81254:81455" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="81346:81441" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="81495:81696" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="81584:81682" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="81777:84966" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="81912:81964" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="81997:82117" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="82320:83761" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="82669:82837" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="82858:83747" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="82897:83202" ph="/* if the new levelId does not equal the level in properties, there is a chance that build index and scene name r ... */" />
-                <marker date="1557137537000" expanded="true" signature="83523:83729" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="83947:84343" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="84018:84202" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="85027:94860" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="85197:85310" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="85349:94850" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="85811:86579" ph="/* This case must match definition in RunViewUpdate() and OnSerializeWrite(). ... */" />
-                <marker date="1557137537000" expanded="true" signature="86951:87313" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="87084:87171" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="87716:87895" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="87920:88020" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="88279:88391" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="88416:88502" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="88742:88847" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="89444:89564" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="89589:89795" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="90218:90427" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="90505:90894" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="90956:93350" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="91290:92114" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="91751:91892" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="91925:92084" ph="/* JF IPunOwnershipCallbacks callback handling refactoring ... */" />
-                <marker date="1557137537000" expanded="true" signature="92147:92306" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="92474:92608" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="92634:93097" ph="/* JF IPunOwnershipCallbacks callback handling refactoring ... */" />
-                <marker date="1557137537000" expanded="true" signature="93746:93942" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="94072:94791" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="94468:94593" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="94618:94769" ph="/* JF IPunOwnershipCallbacks callback handling refactoring ... */" />
-                <marker date="1557137537000" expanded="true" signature="94931:95971" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="94987:95961" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="95118:95682" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="95327:95539" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="95817:95920" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="96269:96841" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="96348:96534" ph="{...}" />
-                <marker date="1557137537000" expanded="true" signature="96434:96520" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/myPhotonIDManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <marker date="1559910517839" expanded="false" signature="6:78" ph="..." />
-                <marker date="1559910517839" expanded="true" signature="126:556" ph="{...}" />
-                <marker date="1559910517839" expanded="true" signature="270:385" ph="{...}" />
-                <marker date="1559910517839" expanded="true" signature="332:379" ph="{...}" />
-                <marker date="1559910517839" expanded="true" signature="412:475" ph="{...}" />
-                <marker date="1559910517839" expanded="true" signature="533:554" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LocalPlayer.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/HeadPosition.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="21" />
               <folding>
-                <marker date="1559895771035" expanded="false" signature="6:96" ph="..." />
-                <marker date="1559895771035" expanded="true" signature="138:916" ph="{...}" />
-                <marker date="1559895771035" expanded="true" signature="237:844" ph="{...}" />
-                <marker date="1559895771035" expanded="true" signature="293:838" ph="/* if (PV.IsMine) ... */" />
-                <marker date="1559895771035" expanded="true" signature="902:914" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-                <marker date="1526509084000" expanded="false" signature="648:686" ph="..." />
-                <marker date="1526509084000" expanded="true" signature="709:2000" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="714:845" ph="/// A component to be attached to a HandModelBase to handle starting and ending of ... " />
-                <marker date="1526509084000" expanded="true" signature="909:1997" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1074:1520" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1162:1340" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1561:1993" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1596:1900" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1702:1892" ph="{...}" />
+                <marker date="1559921562396" expanded="true" signature="6:110" ph="..." />
+                <marker date="1559921562396" expanded="true" signature="153:701" ph="{...}" />
+                <marker date="1559921562396" expanded="true" signature="240:352" ph="{...}" />
+                <marker date="1559921562396" expanded="true" signature="423:444" ph="{...}" />
+                <marker date="1559921562396" expanded="true" signature="502:699" ph="{...}" />
+                <marker date="1559921562396" expanded="true" signature="532:693" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -584,7 +569,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
+            <state relative-caret-position="-255">
               <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <marker date="1559734099677" expanded="false" signature="6:96" ph="..." />
@@ -598,11 +583,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new Quaternion(0,0,90,0);</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Quaternion.Euler(90, 180, 0);</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapHandMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" root0="FORCE_HIGHLIGHTING" />
@@ -612,18 +604,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/LeapHandsAutoRig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Materials/Transparent Specular.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/PolyHand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LocalChecker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LocalPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IKControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/XR/XRHeightOffset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/myPhotonIDManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeadPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -655,6 +643,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs" />
         <option value="$PROJECT_DIR$/Assets/myPhotonIDManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeadPosition.cs" />
       </list>
     </option>
   </component>
@@ -688,6 +677,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -737,12 +727,12 @@
       <workItem from="1559741950992" duration="4318000" />
       <workItem from="1559814018549" duration="13671000" />
       <workItem from="1559895360882" duration="2308000" />
-      <workItem from="1559897915801" duration="9032000" />
+      <workItem from="1559897915801" duration="17326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58678000" />
+    <option name="totallyTimeSpent" value="66972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1039,20 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <marker date="1559660771157" expanded="true" signature="6:110" ph="..." />
-            <marker date="1559660771157" expanded="true" signature="155:608" ph="{...}" />
-            <marker date="1559660771157" expanded="true" signature="242:364" ph="{...}" />
-            <marker date="1559660771157" expanded="true" signature="422:606" ph="{...}" />
-            <marker date="1559660771157" expanded="true" signature="451:600" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LocalChecker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
@@ -1237,17 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <marker date="1559895731762" expanded="true" signature="6:182" ph="..." />
-            <marker date="1559895731762" expanded="true" signature="228:4839" ph="{...}" />
-            <marker date="1559895731762" expanded="true" signature="300:727" ph="/* public GameObject LeapHand_Right; ... */" />
-            <marker date="1559895731762" expanded="true" signature="734:1053" ph="/* public GameObject[] GetChildRecursive(GameObject obj) ... */" />
-            <marker date="1559895731762" expanded="true" signature="1071:1328" ph="{...}" />
-            <marker date="1559895731762" expanded="true" signature="1102:1146" ph="{...}" />
-            <marker date="1559895731762" expanded="true" signature="1198:1322" ph="/* LeapBones_Right = GetChildRecursive(LeapHand_Right); ... */" />
-            <marker date="1559895731762" expanded="true" signature="1334:3954" ph="/* [PunRPC] ... */" />
-            <marker date="1559895731762" expanded="true" signature="3959:4835" ph="/* void Update(){ ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,46 +1354,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
+        <state relative-caret-position="-255">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <marker date="1559734099677" expanded="false" signature="6:96" ph="..." />
             <marker date="1559734099677" expanded="true" signature="153:429" ph="{...}" />
             <marker date="1559734099677" expanded="true" signature="249:330" ph="{...}" />
             <marker date="1559734099677" expanded="true" signature="386:425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LocalPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <marker date="1559895771035" expanded="false" signature="6:96" ph="..." />
-            <marker date="1559895771035" expanded="true" signature="138:916" ph="{...}" />
-            <marker date="1559895771035" expanded="true" signature="237:844" ph="{...}" />
-            <marker date="1559895771035" expanded="true" signature="293:838" ph="/* if (PV.IsMine) ... */" />
-            <marker date="1559895771035" expanded="true" signature="902:914" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-            <marker date="1526509084000" expanded="false" signature="648:686" ph="..." />
-            <marker date="1526509084000" expanded="true" signature="709:2000" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="714:845" ph="/// A component to be attached to a HandModelBase to handle starting and ending of ... " />
-            <marker date="1526509084000" expanded="true" signature="909:1997" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1074:1520" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1162:1340" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1561:1993" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1596:1900" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1702:1892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1517,6 +1449,23 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/myPhotonIDManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LocalPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -1873,43 +1822,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/myPhotonIDManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="405">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <marker date="1559910517839" expanded="false" signature="6:78" ph="..." />
-            <marker date="1559910517839" expanded="true" signature="126:556" ph="{...}" />
-            <marker date="1559910517839" expanded="true" signature="270:385" ph="{...}" />
-            <marker date="1559910517839" expanded="true" signature="332:379" ph="{...}" />
-            <marker date="1559910517839" expanded="true" signature="412:475" ph="{...}" />
-            <marker date="1559910517839" expanded="true" signature="533:554" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+            <marker date="1526509084000" expanded="false" signature="648:686" ph="..." />
+            <marker date="1526509084000" expanded="true" signature="709:2000" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="714:845" ph="/// A component to be attached to a HandModelBase to handle starting and ending of ... " />
+            <marker date="1526509084000" expanded="true" signature="909:1997" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1074:1520" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1162:1340" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1561:1993" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1596:1900" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1702:1892" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+        <state relative-caret-position="561">
+          <caret line="126" column="73" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="73" />
           <folding>
-            <marker date="1559913120464" expanded="true" signature="6:200" ph="..." />
-            <marker date="1559913120464" expanded="true" signature="242:6607" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="614:667" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="758:1018" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="904:970" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="1023:1635" ph="/* public void addPhotonViews(GameObject obj) ... */" />
-            <marker date="1559913120464" expanded="true" signature="1660:3246" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="1746:1774" ph="/* if (PV.IsMine) ... */" />
-            <marker date="1559913120464" expanded="true" signature="1805:2747" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="2791:2978" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="2995:3128" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="3313:5856" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="5907:6179" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="6025:6173" ph="/* TODO: set parent game object active ... */" />
-            <marker date="1559913120464" expanded="true" signature="6206:6605" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="6289:6590" ph="{...}" />
-            <marker date="1559913120464" expanded="true" signature="6434:6580" ph="{...}" />
+            <marker date="1559921058598" expanded="false" signature="6:213" ph="..." />
+            <marker date="1559921058598" expanded="true" signature="255:5743" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="741:802" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="893:1153" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="1039:1105" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="1158:1770" ph="/* public void addPhotonViews(GameObject obj) ... */" />
+            <marker date="1559921058598" expanded="true" signature="1795:3586" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="1881:1909" ph="/* if (PV.IsMine) ... */" />
+            <marker date="1559921058598" expanded="true" signature="1940:2882" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="2926:3113" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="3130:3263" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="3412:3549" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="3653:4991" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="4096:4336" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="4177:4326" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="4433:4977" ph="/* TODO: fix this, arm rotation and position ... */" />
+            <marker date="1559921058598" expanded="true" signature="5043:5315" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="5161:5309" ph="/* TODO: set parent game object active ... */" />
+            <marker date="1559921058598" expanded="true" signature="5342:5741" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="5425:5726" ph="{...}" />
+            <marker date="1559921058598" expanded="true" signature="5570:5716" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HeadPosition.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <marker date="1559921562396" expanded="true" signature="6:110" ph="..." />
+            <marker date="1559921562396" expanded="true" signature="153:701" ph="{...}" />
+            <marker date="1559921562396" expanded="true" signature="240:352" ph="{...}" />
+            <marker date="1559921562396" expanded="true" signature="423:444" ph="{...}" />
+            <marker date="1559921562396" expanded="true" signature="502:699" ph="{...}" />
+            <marker date="1559921562396" expanded="true" signature="532:693" ph="{...}" />
           </folding>
         </state>
       </provider>
