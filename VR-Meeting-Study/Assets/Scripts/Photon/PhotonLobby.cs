@@ -23,10 +23,10 @@ public class PhotonLobby : MonoBehaviourPunCallbacks
     void Start()
     {
         //Connect to Photon Master Server
-        PhotonNetwork.ConnectUsingSettings(); 
+        PhotonNetwork.ConnectUsingSettings();
     }
 
-    public override void OnConnectedToMaster ()
+    public override void OnConnectedToMaster()
     {
         Debug.Log("Player has connected to master server");
         PhotonNetwork.AutomaticallySyncScene = true;
@@ -67,6 +67,4 @@ public class PhotonLobby : MonoBehaviourPunCallbacks
         joinButton.SetActive(true);
         PhotonNetwork.LeaveLobby();
     }
-
-
 }

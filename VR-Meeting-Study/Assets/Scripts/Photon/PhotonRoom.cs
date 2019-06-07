@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 
 public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
 {
-
     public static PhotonRoom room;
     private PhotonView PV;
     public int multiPlayerScene;
@@ -30,8 +29,8 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
                 PhotonRoom.room = this;
             }
         }
-        DontDestroyOnLoad(this.gameObject);
 
+        DontDestroyOnLoad(this.gameObject);
     }
 
     void Start()
@@ -52,6 +51,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
         PhotonNetwork.RemoveCallbackTarget(this);
         SceneManager.sceneLoaded -= OnSceneFinishedLoading;
     }
+
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();

@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class PhotonPlayer : MonoBehaviour
 {
-
     private PhotonView PV;
     public GameObject MyAvatar;
+
     void Start()
     {
         PV = GetComponent<PhotonView>();
@@ -19,5 +19,4 @@ public class PhotonPlayer : MonoBehaviour
                 , GameSetup.GS.SpawnPoints[spawnPicker].position, GameSetup.GS.SpawnPoints[spawnPicker].rotation, 0);
         }
     }
-
 }

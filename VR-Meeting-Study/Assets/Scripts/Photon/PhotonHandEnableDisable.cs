@@ -24,7 +24,7 @@ public class PhotonHandEnableDisable : HandTransitionBehavior
         }
     }
 
-    
+
     protected override void HandReset()
     {
         if (PV.IsMine)

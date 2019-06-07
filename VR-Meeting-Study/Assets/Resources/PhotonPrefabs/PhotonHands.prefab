@@ -606,7 +606,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3264100842634737711}
   - component: {fileID: 713053695883970495}
-  - component: {fileID: 8691753604950622893}
   - component: {fileID: 1630016283093654603}
   m_Layer: 0
   m_Name: PhotonHands
@@ -653,20 +652,6 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 4
   isRuntimeInstantiated: 0
---- !u!114 &8691753604950622893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3264100842634737710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d625a40bf356a0e4095887eaad9ce87f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainCamera: {fileID: 0}
-  PV: {fileID: 0}
 --- !u!114 &1630016283093654603
 MonoBehaviour:
   m_ObjectHideFlags: 0

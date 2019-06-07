@@ -16,11 +16,4 @@ public class GameSetup : MonoBehaviour
             GameSetup.GS = this;
         }
     }
-
-    void Start()
-    {
-        
-    }
-
-
 }
