@@ -11,6 +11,7 @@ public class LocalPlayer : MonoBehaviour
     void Start()
     {
         PV = GetComponent<PhotonView>();
+        /*
         if (PV.IsMine)
         {
             MapHandMovement.mhp.AvatarHand_Right = transform.Find("R_Hand_Human_Normal").gameObject;
@@ -20,6 +21,7 @@ public class LocalPlayer : MonoBehaviour
             MapHandMovement.mhp.AvatarBones_Right =
                 MapHandMovement.mhp.GetChildRecursive(MapHandMovement.mhp.AvatarHand_Left);
         }
+        */
     }
 
     // Update is called once per frame

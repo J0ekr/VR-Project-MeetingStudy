@@ -11,23 +11,23 @@ public class MapHandMovement : MonoBehaviour
 {
     public static MapHandMovement mhp;
     public PhotonView PV;
-    public GameObject LeapHand_Right;
-    public GameObject LeapHand_Left;
+    //public GameObject LeapHand_Right;
+    //public GameObject LeapHand_Left;
 
-    public GameObject AvatarHand_Right;
-    public GameObject AvatarHand_Left;
+    //public GameObject AvatarHand_Right;
+    //public GameObject AvatarHand_Left;
 
-    public GameObject[] LeapBones_Right;
-    public GameObject[] LeapBones_Left;
-    public GameObject[] AvatarBones_Right;
+    //public GameObject[] LeapBones_Right;
+    //public GameObject[] LeapBones_Left;
+    //public GameObject[] AvatarBones_Right;
 
-    public GameObject[] AvatarBones_Left;
+    //public GameObject[] AvatarBones_Left;
 
-    public bool isConnected = false;
+    //public bool isConnected = false;
     // Start is called before the first frame update
 
 
-    public GameObject[] GetChildRecursive(GameObject obj)
+    /*public GameObject[] GetChildRecursive(GameObject obj)
     {
         List<GameObject> listOfChildren = new List<GameObject>();
 
@@ -38,7 +38,7 @@ public class MapHandMovement : MonoBehaviour
         }
 
         return listOfChildren.ToArray();
-    }
+    }*/
 
     void Start()
     {
@@ -49,11 +49,12 @@ public class MapHandMovement : MonoBehaviour
 
         PV = GetComponent<PhotonView>();
 
-        LeapBones_Right = GetChildRecursive(LeapHand_Right);
+        /*LeapBones_Right = GetChildRecursive(LeapHand_Right);
         LeapBones_Left = GetChildRecursive(LeapHand_Left);
+        */
     }
 
-    [PunRPC]
+    /*[PunRPC]
     private void map(GameObject[] leap, GameObject[] avatar)
     {
         avatar[2].transform.position = leap[3].transform.position; //palm
@@ -90,7 +91,7 @@ public class MapHandMovement : MonoBehaviour
         avatar[22].transform.rotation = leap[25].transform.rotation; //thumb_1
         avatar[23].transform.rotation = leap[26].transform.rotation; //thumb_2
     }
-    
+    */
     /* 
     void Update(){
         if (AvatarBones_Right.Length > 0 && LeapBones_Right.Length > 0 && PV.IsMine)
@@ -117,19 +118,6 @@ public class MapHandMovement : MonoBehaviour
     }
     
     */
-    public void OnEvent()
-    {
-        
-    }
-    public void OnEnable()
-    {
-        PhotonNetwork.AddCallbackTarget(this);
-    }
-
-    public void OnDisable()
-    {
-        PhotonNetwork.RemoveCallbackTarget(this);
-    }
 
 
 }

@@ -18,61 +18,82 @@ public class PlayerHand : MonoBehaviour
 
     public GameObject HandModels;
     public RiggedHand cHand;
-    
+
     public GameObject hand;
+    public GameObject palm;
 
     public GameObject[] LeapBones;
     public GameObject[] AvatarBones;
-    
+
     public bool isConnected = false;
-   private void Awake()
-   {
-       HandModels = GameObject.Find("Hand Models");
-       switch (whichHand)
-       {
-           case Chirality.Left:
-               hand = HandModels.transform.Find("LoPoly Rigged Hand Left").gameObject;
-               cHand = hand.GetComponent<RiggedHand>();
-               LeapBones = GetChildRecursive(hand);
-               AvatarBones = GetChildRecursive(gameObject);
-               break;
-           case Chirality.Right:
-               hand = HandModels.transform.Find("LoPoly Rigged Hand Right").gameObject;
-               cHand = hand.GetComponent<RiggedHand>();
-               LeapBones = GetChildRecursive(hand);
-               AvatarBones = GetChildRecursive(gameObject);
-               break;
-           default:
-               Debug.Log("no hands found");
-               break;
 
-       }
-
-       hand.SetActive(false);
-
-   }
-   public GameObject[] GetChildRecursive(GameObject obj)
-   {
-       List<GameObject> listOfChildren = new List<GameObject>();
-
-
-       foreach (Transform g in obj.GetComponentsInChildren<Transform>())
-       {
-           listOfChildren.Add(g.gameObject);
-       }
-
-       return listOfChildren.ToArray();
-   }
-
-   private void Start()
+    private void Awake()
     {
         PV = GetComponent<PhotonView>();
-        if (PV.IsMine)
-        {
-            //Sets hand based on which hand is needed from whichHand variable.
-            
+    }
 
-            //Asserts that the hand has found something and been assigned.
+
+    //hand.SetActive(false);
+
+
+    public GameObject[] GetChildRecursive(GameObject obj)
+    {
+        List<GameObject> listOfChildren = new List<GameObject>();
+        foreach (Transform g in obj.GetComponentsInChildren<Transform>())
+        {
+            listOfChildren.Add(g.gameObject);
+        }
+
+        return listOfChildren.ToArray();
+    }
+
+   /* public void addPhotonViews(GameObject obj)
+    {
+        foreach (Transform g in obj.GetComponentsInChildren<Transform>())
+        {
+
+            if (g.GetComponent<PhotonView>() == null)
+            {
+                PhotonView tmp_pv = g.gameObject.AddComponent<PhotonView>();
+                tmp_pv.ViewID = myPhotonIDManager.id_mgr.GetNewId();
+
+                PhotonTransformView tmp_ptv = g.gameObject.AddComponent<PhotonTransformView>();
+                tmp_pv.ObservedComponents = new List<Component>();
+                tmp_pv.ObservedComponents.Add(tmp_ptv);
+            }
+
+        }
+    }    
+    */
+    private void Start()
+    {
+        HandModels = GameObject.Find("Hand Models");
+        
+        
+        //if (PV.IsMine)
+        //{
+            switch (whichHand)
+            {
+                case Chirality.Left:
+
+                    hand = HandModels.transform.Find("LoPoly Rigged Hand Left").gameObject;
+                    cHand = hand.GetComponent<RiggedHand>();
+                    palm = hand.transform.GetChild(1).gameObject;
+                    LeapBones = GetChildRecursive(hand);
+                    AvatarBones = GetChildRecursive(gameObject);
+                    break;
+                case Chirality.Right:
+                    hand = HandModels.transform.Find("LoPoly Rigged Hand Right").gameObject;
+                    cHand = hand.GetComponent<RiggedHand>();
+                    palm = hand.transform.GetChild(1).gameObject;
+                    LeapBones = GetChildRecursive(hand);
+                    AvatarBones = GetChildRecursive(gameObject);
+                    break;
+                default:
+                    Debug.Log("no hands found");
+                    break;
+            }
+            
             if (cHand == null)
             {
                 Debug.LogError("Failed to find local player hand. Disabling hand preview on cilent " +
@@ -83,12 +104,13 @@ public class PlayerHand : MonoBehaviour
                 Debug.Log("Local Player " + whichHand + " was set to be interaction hand" + cHand.name);
             }
 
-            hand.SetActive(false);
-            //GetComponent<MeshRenderer>().enabled = false;
+            AvatarBones[1].GetComponent<SkinnedMeshRenderer>().enabled = false;
+            
+            
+
         }
-    }
-   
-   [PunRPC]
+    
+
     private void map(GameObject[] leap, GameObject[] avatar)
     {
         avatar[2].transform.position = leap[3].transform.position; //palm
@@ -107,10 +129,11 @@ public class PlayerHand : MonoBehaviour
         avatar[21].transform.position = leap[24].transform.position; //thumb_meta
         avatar[22].transform.position = leap[25].transform.position; //thumb_1
         avatar[23].transform.position = leap[26].transform.position; //thumb_2
-        
+
         avatar[2].transform.rotation = leap[3].transform.rotation; //palm
         avatar[9].transform.rotation = leap[4].transform.rotation; //index_meta
-        avatar[10].transform.rotation = leap[5].transform.rotation;; //index_1
+        avatar[10].transform.rotation = leap[5].transform.rotation;
+        ; //index_1
         avatar[11].transform.rotation = leap[6].transform.rotation; //index_2
         avatar[12].transform.rotation = leap[9].transform.rotation; //mid_meta
         avatar[13].transform.rotation = leap[10].transform.rotation; //mid_1
@@ -129,22 +152,17 @@ public class PlayerHand : MonoBehaviour
     [PunRPC]
     private void showHand(bool show)
     {
-        AvatarBones[1].GetComponent<SkinnedMeshRenderer>().enabled = show;
-        //Debug.Log("scur");
-        //hand.SetActive(show);
-        //GetComponent<MeshRenderer>().enabled = show;
-        //gameObject.SetActive(true);
+        if (AvatarBones[1] != null) AvatarBones[1].GetComponent<SkinnedMeshRenderer>().enabled = show;
         //TODO: set parent game object active
         //TODO: maybe put this scrip to top level component and transform.child.child.position = palm.position
     }
-    
+
     private void Update()
     {
-        
-        
-        if (AvatarBones.Length > 0 && LeapBones.Length > 0 && PV.IsMine)
+        if (AvatarBones.Length == 24 && LeapBones.Length == 28 && PV.IsMine)
         {
             map(LeapBones, AvatarBones);
+
             PV.RPC("showHand",RpcTarget.All, cHand.IsTracked);
             if (!isConnected)
             {

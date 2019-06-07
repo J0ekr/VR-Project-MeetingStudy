@@ -18,17 +18,18 @@ public class PhotonHandEnableDisable : HandTransitionBehavior
         }
 
         PV = GetComponent<PhotonView>();
-        if (!PV.IsMine)
+        if (PV.IsMine)
         {
-            gameObject.SetActive(false);
+            gameObject.transform.GetChild(0).gameObject.GetComponent<SkinnedMeshRenderer>().enabled = false;
         }
     }
 
+    
     protected override void HandReset()
     {
         if (PV.IsMine)
         {
-            gameObject.SetActive(true);
+            //gameObject.transform.GetChild(0).gameObject.GetComponent<SkinnedMeshRenderer>().enabled = true;
         }
     }
 
@@ -36,7 +37,7 @@ public class PhotonHandEnableDisable : HandTransitionBehavior
     {
         if (PV.IsMine)
         {
-            gameObject.SetActive(false);
+            //gameObject.transform.GetChild(0).gameObject.GetComponent<SkinnedMeshRenderer>().enabled = false;
         }
     }
 }
