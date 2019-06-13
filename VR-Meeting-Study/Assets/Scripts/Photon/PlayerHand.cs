@@ -15,6 +15,7 @@ public class PlayerHand : MonoBehaviour
     // Start is called before the first frame update
 
     public PhotonView PV;
+    public static PlayerHand playerHand;
     public Chirality whichHand;
 
     public GameObject HandModels;
@@ -35,6 +36,7 @@ public class PlayerHand : MonoBehaviour
     private void Awake()
     {
         PV = GetComponent<PhotonView>();
+        if (playerHand == null) playerHand = this;
     }
 
     public GameObject[] GetChildRecursive(GameObject obj)
@@ -127,7 +129,10 @@ public class PlayerHand : MonoBehaviour
     [PunRPC]
     private void showHand(bool show)
     {
-        if (AvatarBones[1] != null) AvatarBones[1].GetComponent<SkinnedMeshRenderer>().enabled = show;
+        if (AvatarBones != null && AvatarBones.Length > 0 && AvatarBones[1] != null)
+        {
+            AvatarBones[1].GetComponent<SkinnedMeshRenderer>().enabled = show;
+        }
     }
 
     private void Update()
@@ -138,17 +143,37 @@ public class PlayerHand : MonoBehaviour
             if (MySceneManager.sceneManager.currentScene == 0 || MySceneManager.sceneManager.currentScene == 1)
             {
                 PV.RPC("showHand", RpcTarget.All, cHand.IsTracked);
-                
             }
             else
             {
                 showHand(cHand.IsTracked);
             }
+
             if (!isConnected)
             {
                 LeapBones[1].GetComponent<SkinnedMeshRenderer>().enabled = false;
                 isConnected = true;
             }
         }
+    }
+
+    public void DeactivatePhotonTransforms()
+    {
+        Debug.Log("Deactivate Photon Transforms");
+        foreach (var bone in AvatarBones) bone.GetComponent<PhotonTransformView>().enabled = false;
+    }
+
+    public void ActivatePhotonTransforms()
+    {
+        Debug.Log("Activate Transforms");
+        foreach (var bone in AvatarBones) bone.GetComponent<PhotonTransformView>().enabled = true;
+    }
+
+    public void SetHandsStartingPosition()
+    {
+        //TODO: Set each hand to its right spawn position
+        //TODO: Show hands 
+        //TODO: Animations
+        AvatarBones[2].transform.position = new Vector3(-2,0.5f,-0.33f);
     }
 }

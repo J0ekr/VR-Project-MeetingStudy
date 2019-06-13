@@ -41,5 +41,8 @@ MonoBehaviour:
   - map
   - syncScene
   - SetSpawnPoint
+  - HandTransfer
+  - NoHandTransfer
+  - SetHandTransfer
   DisableAutoOpenWizard: 1
   ShowSettings: 1

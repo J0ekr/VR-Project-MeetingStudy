@@ -1902,6 +1902,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2aa010a1e75292e49a24f3f71bb9cddb, type: 3}
+--- !u!1 &630657537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1671192356237494, guid: dae2e2be31c98324eac460f702db97e9,
+    type: 3}
+  m_PrefabInstance: {fileID: 961286393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &783182788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1193063156239688, guid: dae2e2be31c98324eac460f702db97e9,
@@ -2021,12 +2027,12 @@ PrefabInstance:
     - target: {fileID: 114473456793702560, guid: dae2e2be31c98324eac460f702db97e9,
         type: 3}
       propertyPath: ModelPool.Array.data[0].GroupName
-      value: Rigged Hands
+      value: ControllerHands
       objectReference: {fileID: 0}
     - target: {fileID: 114473456793702560, guid: dae2e2be31c98324eac460f702db97e9,
         type: 3}
       propertyPath: ModelPool.Array.data[1].GroupName
-      value: Rigged Hands 2
+      value: AnimationHands
       objectReference: {fileID: 0}
     - target: {fileID: 114473456793702560, guid: dae2e2be31c98324eac460f702db97e9,
         type: 3}
@@ -3819,6 +3825,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PV: {fileID: 0}
   currentScene: 0
+  hMananger: {fileID: 0}
+  HandModels: {fileID: 630657537}
 --- !u!114 &1226607179
 MonoBehaviour:
   m_ObjectHideFlags: 0
