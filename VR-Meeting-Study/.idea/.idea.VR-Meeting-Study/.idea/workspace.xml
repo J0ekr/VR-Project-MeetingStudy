@@ -2,36 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e75e1ea-657b-499e-81db-44f6ed72c7bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonAvatar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonAvatar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonBalls.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonBalls.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonHands.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonHands.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonNetworkPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonNetworkPlayer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/back.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/back.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/bot.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/bot.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/front.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/front.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/l.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/l.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/r.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/r.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/sky,startday.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/sky,startday.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/up.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/skyb1/up.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_buggy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_buggy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_default.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_default.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_mixedreality.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_mixedreality.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_platformer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_platformer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Actions.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Actions.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_ActionSets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_ActionSets.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Actions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Actions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Initialization.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Initialization.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,21 +40,177 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
               <folding>
-                <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-                <marker date="1526509084000" expanded="false" signature="648:686" ph="..." />
-                <marker date="1526509084000" expanded="true" signature="709:2000" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="714:845" ph="/// A component to be attached to a HandModelBase to handle starting and ending of ... " />
-                <marker date="1526509084000" expanded="true" signature="909:1997" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1074:1520" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1162:1340" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1561:1993" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1596:1900" ph="{...}" />
-                <marker date="1526509084000" expanded="true" signature="1702:1892" ph="{...}" />
+                <marker date="1560416756579" expanded="false" signature="6:113" ph="..." />
+                <marker date="1560416756579" expanded="true" signature="156:1058" ph="{...}" />
+                <marker date="1560416756579" expanded="true" signature="345:951" ph="{...}" />
+                <marker date="1560416756579" expanded="true" signature="480:945" ph="{...}" />
+                <marker date="1560416756579" expanded="true" signature="491:603" ph="/* if (PhotonNetwork.PlayerList.Length &gt; 0) ... */" />
+                <marker date="1560416756579" expanded="true" signature="998:1056" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1559923711040" expanded="true" signature="6:92" ph="..." />
+                <marker date="1559923711040" expanded="true" signature="132:333" ph="{...}" />
+                <marker date="1559923711040" expanded="true" signature="232:331" ph="{...}" />
+                <marker date="1559923711040" expanded="true" signature="272:325" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_Render.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1395">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
+              <folding>
+                <marker date="1548877266000" expanded="true" signature="0:218" ph="/* ======= Copyright (c) Valve Corporation, All rights reserved. =============== ... */" />
+                <marker date="1548877266000" expanded="false" signature="226:280" ph="..." />
+                <marker date="1548877266000" expanded="true" signature="301:14362" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="351:14360" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="729:815" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="869:963" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="1020:1137" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="1181:1303" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="1418:2009" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="1654:1894" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="2060:2674" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="2183:2308" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="2495:2633" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="2712:2846" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="3116:3414" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="3186:3404" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="3536:4220" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="3588:4210" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="3810:4016" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="4257:4810" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="4922:5668" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="5024:5281" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="5106:5190" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="5298:5658" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="5380:5507" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="5796:6561" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="6153:6526" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="6622:7990" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="6850:7980" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="7212:7296" ph="/* Do the stereo panorama screenshot ... */" />
+                <marker date="1548877266000" expanded="true" signature="8140:8759" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="8816:8929" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="8963:9491" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="9521:10077" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="9622:10067" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="10112:10411" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="10206:10401" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="10466:10694" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="10625:10684" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="11561:14354" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="11780:13442" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="11985:13428" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="12162:13410" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="12370:12501" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="12706:12836" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="13870:14344" ph="{...}" />
+                <marker date="1548877266000" expanded="true" signature="13959:14330" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1559923671079" expanded="true" signature="6:128" ph="..." />
+                <marker date="1559923671079" expanded="true" signature="191:987" ph="{...}" />
+                <marker date="1559923671079" expanded="true" signature="293:570" ph="{...}" />
+                <marker date="1559923671079" expanded="true" signature="325:370" ph="{...}" />
+                <marker date="1559923671079" expanded="true" signature="435:564" ph="{...}" />
+                <marker date="1559923671079" expanded="true" signature="612:777" ph="{...}" />
+                <marker date="1559923671079" expanded="true" signature="641:771" ph="{...}" />
+                <marker date="1559923671079" expanded="true" signature="819:985" ph="{...}" />
+                <marker date="1559923671079" expanded="true" signature="848:979" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
+              <folding>
+                <marker date="1560351025170" expanded="true" signature="6:213" ph="..." />
+                <marker date="1560351025170" expanded="true" signature="255:4971" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="737:790" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="849:1109" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="995:1061" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="1135:2757" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="1298:2164" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="2192:2363" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="2376:2497" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="2626:2751" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="2820:4137" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="3251:3491" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="3332:3481" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="3579:4131" ph="/* TODO: fix this, arm rotation and position ... */" />
+                <marker date="1560351025170" expanded="true" signature="4188:4303" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="4330:4969" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="4413:4963" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="4576:4689" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="4706:4777" ph="{...}" />
+                <marker date="1560351025170" expanded="true" signature="4807:4953" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MySceneManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+              <folding>
+                <marker date="1560414108192" expanded="false" signature="6:127" ph="..." />
+                <marker date="1560414108192" expanded="true" signature="172:1286" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="347:589" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="440:493" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="518:583" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="639:681" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="738:1284" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="767:1278" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="816:899" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="939:1022" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="1062:1145" ph="{...}" />
+                <marker date="1560414108192" expanded="true" signature="1185:1268" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SetPlayerSpawn.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <marker date="1560416751308" expanded="true" signature="157:657" ph="{...}" />
+                <marker date="1560416751308" expanded="true" signature="220:279" ph="{...}" />
+                <marker date="1560416751308" expanded="true" signature="310:466" ph="{...}" />
+                <marker date="1560416751308" expanded="true" signature="497:655" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,24 +223,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ThirdParty/PunCockpitEmbed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/XR/XRHeightOffset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_Render.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MySceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/HandModelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/LeapHandsAutoRig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Materials/Transparent Specular.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Modules/Hands/Scripts/PolyHand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/XR/XRHeightOffset.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SetPlayerSpawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -92,11 +252,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs" />
+        <option value="$PROJECT_DIR$/Assets/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_Render.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MySceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SetPlayerSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="2079" />
+    <option name="height" value="1567" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -104,62 +273,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
-              <item name="PhotonPrefabs" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Photon" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Photon" type="1045f7f1:UnityExplorerNode" />
-              <item name="GameControllers" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="SteamVR" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -173,19 +303,55 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e75e1ea-657b-499e-81db-44f6ed72c7bc" name="Default Changelist" comment="" />
+      <created>1560343032713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560343032713</updated>
+      <workItem from="1560343034484" duration="3869000" />
+      <workItem from="1560350113300" duration="1514000" />
+      <workItem from="1560414063426" duration="2691000" />
+    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1152000" />
+    <option name="totallyTimeSpent" value="9226000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26788554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27384737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -215,8 +381,21 @@
       <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -250,33 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="6" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
-          <folding>
-            <marker date="1559923908412" expanded="true" signature="6:213" ph="..." />
-            <marker date="1559923908412" expanded="true" signature="255:4723" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="737:790" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="849:1109" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="995:1061" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="1135:2757" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="1298:2164" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="2192:2363" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="2376:2497" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="2626:2751" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="2820:4137" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="3251:3491" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="3332:3481" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="3579:4131" ph="/* TODO: fix this, arm rotation and position ... */" />
-            <marker date="1559923908412" expanded="true" signature="4188:4303" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="4330:4721" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="4413:4715" ph="{...}" />
-            <marker date="1559923908412" expanded="true" signature="4559:4705" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -301,46 +453,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/SceneManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ThirdParty/PunCockpitEmbed.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="705">
+          <caret line="52" column="30" selection-start-line="52" selection-end-line="53" />
           <folding>
-            <marker date="1559923711040" expanded="true" signature="6:92" ph="..." />
-            <marker date="1559923711040" expanded="true" signature="132:333" ph="{...}" />
-            <marker date="1559923711040" expanded="true" signature="232:331" ph="{...}" />
-            <marker date="1559923711040" expanded="true" signature="272:325" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1559923682311" expanded="false" signature="6:113" ph="..." />
-            <marker date="1559923682311" expanded="true" signature="156:621" ph="{...}" />
-            <marker date="1559923682311" expanded="true" signature="235:619" ph="{...}" />
-            <marker date="1559923682311" expanded="true" signature="381:613" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <marker date="1559923671079" expanded="true" signature="6:128" ph="..." />
-            <marker date="1559923671079" expanded="true" signature="191:987" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="293:570" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="325:370" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="435:564" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="612:777" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="641:771" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="819:985" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="848:979" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="0:538" ph="/*  Use this in scenes you want to leave Control for connection and pun related commands to Cockpit. ... */" />
+            <marker date="1557137474000" expanded="false" signature="546:654" ph="..." />
+            <marker date="1557137474000" expanded="true" signature="689:2746" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="696:975" ph="/// Use this in scenes you want to leave Control for connection and pun related commands to Cockpit. ... " />
+            <marker date="1557137474000" expanded="true" signature="1036:2742" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="1301:1442" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="1353:1432" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="1510:2223" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="1893:2101" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="1997:2087" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="2118:2184" ph="{...}" />
+            <marker date="1557137474000" expanded="false" signature="2233:2731" ph="MonoBehaviourPunCallbacks implementation" />
+            <marker date="1557137474000" expanded="true" signature="2326:2712" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="2426:2505" ph="{...}" />
+            <marker date="1557137474000" expanded="true" signature="2551:2702" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -360,6 +494,169 @@
             <marker date="1526509084000" expanded="true" signature="1561:1993" ph="{...}" />
             <marker date="1526509084000" expanded="true" signature="1596:1900" ph="{...}" />
             <marker date="1526509084000" expanded="true" signature="1702:1892" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_Render.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <marker date="1548877266000" expanded="true" signature="0:218" ph="/* ======= Copyright (c) Valve Corporation, All rights reserved. =============== ... */" />
+            <marker date="1548877266000" expanded="false" signature="226:280" ph="..." />
+            <marker date="1548877266000" expanded="true" signature="301:14362" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="351:14360" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="729:815" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="869:963" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="1020:1137" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="1181:1303" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="1418:2009" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="1654:1894" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="2060:2674" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="2183:2308" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="2495:2633" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="2712:2846" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="3116:3414" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="3186:3404" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="3536:4220" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="3588:4210" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="3810:4016" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="4257:4810" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="4922:5668" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="5024:5281" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="5106:5190" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="5298:5658" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="5380:5507" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="5796:6561" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="6153:6526" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="6622:7990" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="6850:7980" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="7212:7296" ph="/* Do the stereo panorama screenshot ... */" />
+            <marker date="1548877266000" expanded="true" signature="8140:8759" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="8816:8929" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="8963:9491" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="9521:10077" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="9622:10067" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="10112:10411" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="10206:10401" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="10466:10694" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="10625:10684" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="11561:14354" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="11780:13442" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="11985:13428" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="12162:13410" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="12370:12501" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="12706:12836" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="13870:14344" ph="{...}" />
+            <marker date="1548877266000" expanded="true" signature="13959:14330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559923671079" expanded="true" signature="6:128" ph="..." />
+            <marker date="1559923671079" expanded="true" signature="191:987" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="293:570" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="325:370" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="435:564" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="612:777" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="641:771" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="819:985" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="848:979" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MySceneManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <marker date="1560414108192" expanded="false" signature="6:127" ph="..." />
+            <marker date="1560414108192" expanded="true" signature="172:1286" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="347:589" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="440:493" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="518:583" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="639:681" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="738:1284" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="767:1278" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="816:899" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="939:1022" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="1062:1145" ph="{...}" />
+            <marker date="1560414108192" expanded="true" signature="1185:1268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
+          <folding>
+            <marker date="1560351025170" expanded="true" signature="6:213" ph="..." />
+            <marker date="1560351025170" expanded="true" signature="255:4971" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="737:790" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="849:1109" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="995:1061" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="1135:2757" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="1298:2164" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="2192:2363" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="2376:2497" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="2626:2751" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="2820:4137" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="3251:3491" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="3332:3481" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="3579:4131" ph="/* TODO: fix this, arm rotation and position ... */" />
+            <marker date="1560351025170" expanded="true" signature="4188:4303" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="4330:4969" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="4413:4963" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="4576:4689" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="4706:4777" ph="{...}" />
+            <marker date="1560351025170" expanded="true" signature="4807:4953" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559923711040" expanded="true" signature="6:92" ph="..." />
+            <marker date="1559923711040" expanded="true" signature="132:333" ph="{...}" />
+            <marker date="1559923711040" expanded="true" signature="232:331" ph="{...}" />
+            <marker date="1559923711040" expanded="true" signature="272:325" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SetPlayerSpawn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1560416751308" expanded="true" signature="157:657" ph="{...}" />
+            <marker date="1560416751308" expanded="true" signature="220:279" ph="{...}" />
+            <marker date="1560416751308" expanded="true" signature="310:466" ph="{...}" />
+            <marker date="1560416751308" expanded="true" signature="497:655" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <marker date="1560416756579" expanded="false" signature="6:113" ph="..." />
+            <marker date="1560416756579" expanded="true" signature="156:1058" ph="{...}" />
+            <marker date="1560416756579" expanded="true" signature="345:951" ph="{...}" />
+            <marker date="1560416756579" expanded="true" signature="480:945" ph="{...}" />
+            <marker date="1560416756579" expanded="true" signature="491:603" ph="/* if (PhotonNetwork.PlayerList.Length &gt; 0) ... */" />
+            <marker date="1560416756579" expanded="true" signature="998:1056" ph="{...}" />
           </folding>
         </state>
       </provider>

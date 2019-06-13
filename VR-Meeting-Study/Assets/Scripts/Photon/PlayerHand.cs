@@ -135,8 +135,15 @@ public class PlayerHand : MonoBehaviour
         if (AvatarBones.Length == 24 && LeapBones.Length == 28 && PV.IsMine)
         {
             map(LeapBones, AvatarBones);
-
-            PV.RPC("showHand", RpcTarget.All, cHand.IsTracked);
+            if (MySceneManager.sceneManager.currentScene == 0 || MySceneManager.sceneManager.currentScene == 1)
+            {
+                PV.RPC("showHand", RpcTarget.All, cHand.IsTracked);
+                
+            }
+            else
+            {
+                showHand(cHand.IsTracked);
+            }
             if (!isConnected)
             {
                 LeapBones[1].GetComponent<SkinnedMeshRenderer>().enabled = false;

@@ -67,3 +67,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyAvatar: {fileID: 0}
+  mySpawn: 0
+  otherSpawn: 1
