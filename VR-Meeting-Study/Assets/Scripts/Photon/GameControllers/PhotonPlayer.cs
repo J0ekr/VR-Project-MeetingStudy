@@ -27,6 +27,12 @@ public class PhotonPlayer : MonoBehaviour
             
             MyAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PhotonHands")
                 , GameSetup.GS.SpawnPoints[mySpawn].position, GameSetup.GS.SpawnPoints[mySpawn].rotation, 0);
+            MyAvatar.name = "SlavePlayer";
+            
+            if (PhotonNetwork.IsMasterClient)
+            {
+                MyAvatar.name = "MasterPlayer";
+            }
             
             SetPlayerSpawn.setSpawn.SetPosition();
             SetPlayerSpawn.setSpawn.SetRotation();

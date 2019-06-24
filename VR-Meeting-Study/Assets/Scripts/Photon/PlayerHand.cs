@@ -111,7 +111,8 @@ public class PlayerHand : MonoBehaviour
             //loops over bones
             for (int j = 0; j < 3; j++)
             {
-                avatar[avatar_index[i] + j].transform.rotation = leap[leap_index[i] + j].transform.rotation * leap_quad;
+                avatar[avatar_index[i] + j].transform.rotation =
+                    leap[leap_index[i] + j].transform.rotation * leap_quad;
             }
         }
 
@@ -124,6 +125,9 @@ public class PlayerHand : MonoBehaviour
 //            avatar[4 + i].transform.rotation = avatar[3].transform.rotation * Quaternion.Euler(i * 18, 0, 0);
 //            avatar[4 + i].transform.position = leap[2].transform.position + distances[i + 1] * leap[2].transform.up;
 //        }
+
+
+        SaveHandPosition.Save(avatar[2].gameObject, avatar[0].GetComponent<PlayerHand>().whichHand, PV.ViewID);
     }
 
     [PunRPC]
@@ -134,15 +138,45 @@ public class PlayerHand : MonoBehaviour
             AvatarBones[1].GetComponent<SkinnedMeshRenderer>().enabled = show;
         }
     }
+    
 
     private void Update()
     {
+//        if (!PV.IsMine)
+//        {
+//            Debug.Log((PV.ViewID));
+//        }
         if (AvatarBones.Length == 24 && LeapBones.Length == 28 && PV.IsMine)
         {
+//            switch (MySceneManager.sceneManager.currentScene)
+//            {
+//                case 0:
+//                    map(LeapBones, AvatarBones);
+//                    break;
+//                
+//                case 1:
+//                    map(LeapBones, AvatarBones);
+//                    break;
+//                
+//                case 2:
+//                    map(LeapBones, AvatarBones);
+//                    break;
+//                
+//                case 3:
+//                    map(LeapBones, AvatarBones);
+//                    break;
+//            }
+            
+            
+            
+            
+            
+            
             map(LeapBones, AvatarBones);
             if (MySceneManager.sceneManager.currentScene == 0 || MySceneManager.sceneManager.currentScene == 1)
             {
                 PV.RPC("showHand", RpcTarget.All, cHand.IsTracked);
+                
             }
             else
             {
@@ -155,25 +189,28 @@ public class PlayerHand : MonoBehaviour
                 isConnected = true;
             }
         }
+        
+        
+        
+        
+       
     }
+
+
 
     public void DeactivatePhotonTransforms()
     {
         Debug.Log("Deactivate Photon Transforms");
+        Debug.Log(PV.ViewID);
         foreach (var bone in AvatarBones) bone.GetComponent<PhotonTransformView>().enabled = false;
     }
 
     public void ActivatePhotonTransforms()
     {
         Debug.Log("Activate Transforms");
+        Debug.Log(PV.ViewID);
         foreach (var bone in AvatarBones) bone.GetComponent<PhotonTransformView>().enabled = true;
     }
 
-    public void SetHandsStartingPosition()
-    {
-        //TODO: Set each hand to its right spawn position
-        //TODO: Show hands 
-        //TODO: Animations
-        AvatarBones[2].transform.position = new Vector3(-2,0.5f,-0.33f);
-    }
+
 }

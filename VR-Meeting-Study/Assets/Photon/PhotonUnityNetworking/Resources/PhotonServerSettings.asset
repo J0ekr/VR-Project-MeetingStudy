@@ -44,5 +44,9 @@ MonoBehaviour:
   - HandTransfer
   - NoHandTransfer
   - SetHandTransfer
+  - SetHandsStartingPosition
+  - ActivatePhotonTransforms
+  - DeactivatePhotonTransforms
+  - showDummyHands
   DisableAutoOpenWizard: 1
   ShowSettings: 1

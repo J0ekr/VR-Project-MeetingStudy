@@ -16,4 +16,9 @@ public class GameSetup : MonoBehaviour
             GameSetup.GS = this;
         }
     }
+
+    private void OnApplicationQuit()
+    {
+        SaveHandPosition.closeIfOpen();
+    }
 }

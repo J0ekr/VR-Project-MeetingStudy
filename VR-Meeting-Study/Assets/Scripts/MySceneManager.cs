@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Leap.Unity;
 using Photon.Pun;
@@ -13,6 +14,9 @@ public class MySceneManager : MonoBehaviour
 
     public PhotonView PV;
     public int currentScene;
+
+    public GameObject Master;
+    public GameObject Slave;
 
     //public HandModelManager hMananger;
 
@@ -31,63 +35,90 @@ public class MySceneManager : MonoBehaviour
             PV = GetComponent<PhotonView>();
         }
 
+
+       
         //if (hMananger == null) hMananger = HandModels.GetComponent<HandModelManager>();
     }
+
+
+
     [PunRPC]
     public void syncScene(int scene)
     {
         currentScene = scene;
     }
+
     // Update is called once per frame
     void Update()
     {
-        if (PV.IsMine)
+        if (Input.GetKeyDown("0"))
         {
-            if (Input.GetKeyDown("0"))
-            {
-                PV.RPC("syncScene", RpcTarget.All, 0);
-                PV.RPC("SetHandTransfer", RpcTarget.All, true);
-            }
+            PV.RPC("syncScene", RpcTarget.All, 0);
+            PV.RPC("SetHandTransfer", RpcTarget.All, true);
+            PV.RPC("showDummyHands", RpcTarget.All, false);
+        }
 
-            if (Input.GetKeyDown("1"))
-            {
-                PV.RPC("syncScene", RpcTarget.All, 1);
-                PV.RPC("SetHandTransfer", RpcTarget.All, true);
-            }
+        if (Input.GetKeyDown("1"))
+        {
+            PV.RPC("syncScene", RpcTarget.All, 1);
+            PV.RPC("SetHandTransfer", RpcTarget.All, true);
+            PV.RPC("showDummyHands", RpcTarget.All, false);
+        }
 
-            if (Input.GetKeyDown("2"))
-            {
-                PV.RPC("syncScene", RpcTarget.All, 2);
-                PV.RPC("SetHandTransfer", RpcTarget.All, false);
-            }
+        if (Input.GetKeyDown("2"))
+        {
+            PV.RPC("syncScene", RpcTarget.All, 2);
+            PV.RPC("SetHandTransfer", RpcTarget.All, false);
+            PV.RPC("showDummyHands", RpcTarget.All, true);
+        }
 
-            if (Input.GetKeyDown("3"))
-            {
-                PV.RPC("syncScene", RpcTarget.All, 3);
-                PV.RPC("SetHandTransfer", RpcTarget.All, false);
-            }
+        if (Input.GetKeyDown("3"))
+        {
+            PV.RPC("syncScene", RpcTarget.All, 3);
+            PV.RPC("SetHandTransfer", RpcTarget.All, false);
+            PV.RPC("showDummyHands", RpcTarget.All, true);
         }
     }
 
     [PunRPC]
     private void SetHandTransfer(bool mode)
     {
-        switch (mode)
+        if (mode)
         {
-       
-            case true: 
-                PlayerHand.playerHand.ActivatePhotonTransforms();
-                break;
-            case false:
-                PlayerHand.playerHand.DeactivatePhotonTransforms();
-                break;
-            default:
-                Debug.Log("No study mode selected");
-                break;
-                
+            PlayerHand.playerHand.ActivatePhotonTransforms();
         }
-        
+        else
+        {
+            PlayerHand.playerHand.DeactivatePhotonTransforms();
+        }
     }
 
-    
+    public void GetGameObjects()
+    {
+        if (GameObject.Find("MasterPlayer") == null)
+        {
+            Master = GameObject.Find("PhotonHands(Clone)");
+            Slave = GameObject.Find("SlavePlayer");
+        }
+        else
+        {
+            Slave = GameObject.Find("PhotonHands(Clone)");
+            Master = GameObject.Find("MasterPlayer");
+        }
+    }
+    [PunRPC]
+    private void showDummyHands(bool show)
+    {
+        GetGameObjects();
+        if (PhotonNetwork.IsMasterClient)
+        {
+            Slave.transform.Find("Head").Find("R_Dummy").gameObject.SetActive(show);
+            Slave.transform.Find("Head").Find("L_Dummy").gameObject.SetActive(show);
+        }
+        else
+        {
+            Master.transform.Find("Head").Find("R_Dummy").gameObject.SetActive(show);
+            Master.transform.Find("Head").Find("L_Dummy").gameObject.SetActive(show);
+        }
+    }
 }

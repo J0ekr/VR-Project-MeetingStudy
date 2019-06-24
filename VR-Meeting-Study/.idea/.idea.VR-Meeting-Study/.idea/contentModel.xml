@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="HeadPosition.cs" t="Include" />
         <e p="LeapMotion" t="Include">
           <e p="Core" t="Include">
             <e p="Dependencies.txt" t="Include" />
@@ -829,6 +830,7 @@
             </e>
           </e>
         </e>
+        <e p="PhotonManager.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="MySceneManager.cs" t="Include" />
           <e p="Photon" t="Include">
@@ -842,6 +844,7 @@
             <e p="PhotonRoom.cs" t="Include" />
             <e p="PlayerHand.cs" t="Include" />
           </e>
+          <e p="SaveHandPosition.cs" t="Include" />
         </e>
         <e p="SetPlayerSpawn.cs" t="Include" />
         <e p="SteamVR" t="Include">
@@ -1122,6 +1125,7 @@
             <e p="SteamVR_Windows_EditorHelper.asmdef" t="Include" />
           </e>
         </e>
+        <e p="StudySetup.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
