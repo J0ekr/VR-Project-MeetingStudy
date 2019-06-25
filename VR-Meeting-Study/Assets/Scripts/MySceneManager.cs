@@ -15,6 +15,9 @@ public class MySceneManager : MonoBehaviour
     public PhotonView PV;
     public int currentScene;
 
+    private Animator anmiMaster;
+    private Animator animSlave;
+    
     public GameObject Master;
     public GameObject Slave;
 
@@ -35,6 +38,7 @@ public class MySceneManager : MonoBehaviour
             PV = GetComponent<PhotonView>();
         }
 
+        
 
        
         //if (hMananger == null) hMananger = HandModels.GetComponent<HandModelManager>();
@@ -77,6 +81,7 @@ public class MySceneManager : MonoBehaviour
             PV.RPC("syncScene", RpcTarget.All, 3);
             PV.RPC("SetHandTransfer", RpcTarget.All, false);
             PV.RPC("showDummyHands", RpcTarget.All, true);
+            PV.RPC("playAnimation", RpcTarget.All);
         }
     }
 
@@ -120,5 +125,32 @@ public class MySceneManager : MonoBehaviour
             Master.transform.Find("Head").Find("R_Dummy").gameObject.SetActive(show);
             Master.transform.Find("Head").Find("L_Dummy").gameObject.SetActive(show);
         }
+    }
+
+    [PunRPC]
+    private void playAnimation()
+    {
+        anmiMaster = Master.transform.Find("Head").Find("R_Dummy").GetComponent<Animator>();
+        animSlave = Slave.transform.Find("Head").Find("R_Dummy").GetComponent<Animator>();
+        
+        if (PhotonNetwork.IsMasterClient)
+        {
+            if (null != animSlave)
+            {
+                // play Bounce but start at a quarter of the way though
+                animSlave.Play("test", 0, 0.25f);
+            }
+        }
+        else
+        {
+            if (null != anmiMaster)
+            {
+                // play Bounce but start at a quarter of the way though
+                anmiMaster.Play("test", 0, 0.25f);
+            }        
+        }
+        
+        
+       
     }
 }
