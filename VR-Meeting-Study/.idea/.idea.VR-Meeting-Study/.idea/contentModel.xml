@@ -831,6 +831,7 @@
           </e>
         </e>
         <e p="PhotonManager.cs" t="Include" />
+        <e p="PictureSwitcher.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="MySceneManager.cs" t="Include" />
           <e p="Photon" t="Include">
