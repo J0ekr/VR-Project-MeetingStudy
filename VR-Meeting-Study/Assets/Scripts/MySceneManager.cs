@@ -15,8 +15,11 @@ public class MySceneManager : MonoBehaviour
     public PhotonView PV;
     public int currentScene;
 
-    private Animator anmiMaster;
-    private Animator animSlave;
+    private Animator anmiMasterRight;
+    private Animator anmiMasterLeft;
+    private Animator animSlaveRight;
+    private Animator animSlaveLeft;
+    
     
     public GameObject Master;
     public GameObject Slave;
@@ -110,6 +113,12 @@ public class MySceneManager : MonoBehaviour
             Slave = GameObject.Find("PhotonHands(Clone)");
             Master = GameObject.Find("MasterPlayer");
         }
+       
+        Master.transform.Find("ViveHead").position = new Vector3(0.95f, 0.78f, -0.29f);
+        Slave.transform.Find("ViveHead").position = new Vector3(-0.95f, 0.8f, -0.19f);
+        
+        Master.transform.Find("ViveHead").rotation = Quaternion.Euler(-90,14,76);
+        Slave.transform.Find("ViveHead").rotation = Quaternion.Euler(-90,-160,67);
     }
     [PunRPC]
     private void showDummyHands(bool show)
@@ -117,36 +126,39 @@ public class MySceneManager : MonoBehaviour
         GetGameObjects();
         if (PhotonNetwork.IsMasterClient)
         {
-            Slave.transform.Find("Head").Find("R_Dummy").gameObject.SetActive(show);
-            Slave.transform.Find("Head").Find("L_Dummy").gameObject.SetActive(show);
+            Slave.transform.Find("ViveHead").Find("R_Dummy").gameObject.SetActive(show);
+            Slave.transform.Find("ViveHead").Find("L_Dummy").gameObject.SetActive(show);
         }
         else
         {
-            Master.transform.Find("Head").Find("R_Dummy").gameObject.SetActive(show);
-            Master.transform.Find("Head").Find("L_Dummy").gameObject.SetActive(show);
+            Master.transform.Find("ViveHead").Find("R_Dummy").gameObject.SetActive(show);
+            Master.transform.Find("ViveHead").Find("L_Dummy").gameObject.SetActive(show);
         }
     }
 
     [PunRPC]
     private void playAnimation()
     {
-        anmiMaster = Master.transform.Find("Head").Find("R_Dummy").GetComponent<Animator>();
-        animSlave = Slave.transform.Find("Head").Find("R_Dummy").GetComponent<Animator>();
+        anmiMasterRight = Master.transform.Find("ViveHead").GetComponent<Animator>();
+        animSlaveRight = Slave.transform.Find("ViveHead").GetComponent<Animator>();
+        
         
         if (PhotonNetwork.IsMasterClient)
         {
-            if (null != animSlave)
+            if (null != animSlaveRight)
             {
                 // play Bounce but start at a quarter of the way though
-                animSlave.Play("test", 0, 0.25f);
+                animSlaveRight.Play("test", 0, 0.25f);
+                //animSlaveLeft.Play("test", 0, 0.25f);
             }
         }
         else
         {
-            if (null != anmiMaster)
+            if (null != anmiMasterRight)
             {
                 // play Bounce but start at a quarter of the way though
-                anmiMaster.Play("test", 0, 0.25f);
+                anmiMasterRight.Play("test", 0, 0.25f);
+                //anmiMasterLeft.Play("test", 0, 0.25f);
             }        
         }
         

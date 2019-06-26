@@ -6571,7 +6571,7 @@ PrefabInstance:
     - target: {fileID: 114121827862505544, guid: dae2e2be31c98324eac460f702db97e9,
         type: 3}
       propertyPath: recenterOnKey
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20862101930491778, guid: dae2e2be31c98324eac460f702db97e9,
         type: 3}
@@ -18331,7 +18331,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105013652}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.5, z: -0.33}
+  m_LocalPosition: {x: -1.55, y: 0.5, z: -0.33}
   m_LocalScale: {x: 0.8988861, y: 0.8988861, z: 0.8988861}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18384,9 +18384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 898716117}
   Textures:
-  - {fileID: 2800000, guid: 206032c3547ac5843984508848f5d9d9, type: 3}
-  - {fileID: 2800000, guid: 7f82f6783d0bed449b02f8eb4201cc09, type: 3}
-  - {fileID: 2800000, guid: 78161d22558e82b41870caac8a032852, type: 3}
+  - {fileID: 2800000, guid: 80f5aad755110064f8db2bba7fdfc5dc, type: 3}
 --- !u!1 &2119942625
 GameObject:
   m_ObjectHideFlags: 0
@@ -18613,7 +18611,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143439751}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.5, z: -0.33}
+  m_LocalPosition: {x: 1.594, y: 0.5, z: -0.33}
   m_LocalScale: {x: 0.8988861, y: 0.8988861, z: 0.8988861}
   m_Children: []
   m_Father: {fileID: 0}
