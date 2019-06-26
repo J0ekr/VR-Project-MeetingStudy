@@ -16,7 +16,7 @@ public class SaveHandPosition
 
     private static readonly string CsvSeparator = ",";
 
-    
+
     string FileName;
     private StreamWriter sw;
 
@@ -48,9 +48,11 @@ public class SaveHandPosition
     private string GetCsvHeader()
     {
         string header = "";
-        
-        header += "Condition" + CsvSeparator + "timestamp" + CsvSeparator + "SubjectID" + CsvSeparator + "GameObjectName" +
-                  CsvSeparator + "viewID" + CsvSeparator + "Hand" + CsvSeparator + "PosX" + CsvSeparator + "PosY" +
+
+        header += "Condition" + CsvSeparator + "timestamp" + CsvSeparator + "SubjectID" + CsvSeparator +
+                  "GameObjectName" +
+                  CsvSeparator + "viewID" + CsvSeparator + "Hand" + CsvSeparator + "isStudy" + CsvSeparator + "PosX" +
+                  CsvSeparator + "PosY" +
                   CsvSeparator + "PosZ" + CsvSeparator + "RotX" + CsvSeparator + "RotY" + CsvSeparator + "RotZ";
         return header;
     }
@@ -69,7 +71,8 @@ public class SaveHandPosition
         var GameObjectName = palm.name;
         var Hand = w;
         var viewID = P;
-        
+        var isStudy = MySceneManager.sceneManager.isStudy;
+
         string output = "";
 
         var PosX = palm.transform.position.x;
@@ -80,7 +83,8 @@ public class SaveHandPosition
         var RotZ = palm.transform.position.z;
 
         output += Condition + CsvSeparator + timestamp + CsvSeparator + SubjectID + CsvSeparator + GameObjectName +
-                  CsvSeparator + viewID + CsvSeparator +Hand  + CsvSeparator + PosX + CsvSeparator + PosY +
+                  CsvSeparator + viewID + CsvSeparator + Hand + CsvSeparator + isStudy + CsvSeparator + PosX +
+                  CsvSeparator + PosY +
                   CsvSeparator + PosZ + CsvSeparator + RotX + CsvSeparator + RotY + CsvSeparator + RotZ;
 
 

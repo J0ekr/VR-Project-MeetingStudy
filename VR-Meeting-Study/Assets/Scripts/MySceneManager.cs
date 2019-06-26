@@ -24,6 +24,8 @@ public class MySceneManager : MonoBehaviour
     public GameObject Master;
     public GameObject Slave;
 
+    public bool isStudy = false;
+
     //public HandModelManager hMananger;
 
     //public GameObject HandModels;
@@ -85,6 +87,15 @@ public class MySceneManager : MonoBehaviour
             PV.RPC("SetHandTransfer", RpcTarget.All, false);
             PV.RPC("showDummyHands", RpcTarget.All, true);
             PV.RPC("playAnimation", RpcTarget.All);
+        }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            isStudy = true;
+        }        
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            isStudy = false;
         }
     }
 
