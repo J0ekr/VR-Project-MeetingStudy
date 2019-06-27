@@ -4,6 +4,7 @@ using System.IO;
 using Photon.Pun;
 using UnityEngine;
 
+// Lets the instantiated PhotonNetworkPlayer instatiate the avatar
 public class PhotonPlayer : MonoBehaviour
 {
     public static PhotonPlayer photonPlayer;
