@@ -49,5 +49,8 @@ MonoBehaviour:
   - DeactivatePhotonTransforms
   - showDummyHands
   - playAnimation
+  - stopAnimation
+  - setContent
+  - setWhite
   DisableAutoOpenWizard: 1
   ShowSettings: 1

@@ -15,21 +15,15 @@ public class MySceneManager : MonoBehaviour
     public PhotonView PV;
     public int currentScene;
 
-    private Animator anmiMasterRight;
-    private Animator anmiMasterLeft;
-    private Animator animSlaveRight;
-    private Animator animSlaveLeft;
-    
-    
+    private Animator animMaster;
+    private Animator animSlave;
+
+
     public GameObject Master;
     public GameObject Slave;
 
     public bool isStudy = false;
-
-    //public HandModelManager hMananger;
-
-    //public GameObject HandModels;
-    // Start is called before the first frame update
+    
     void Start()
     {
         currentScene = 0; // 1: Real, 2: fake, 3: no
@@ -42,15 +36,11 @@ public class MySceneManager : MonoBehaviour
         {
             PV = GetComponent<PhotonView>();
         }
-
         
-
-       
-        //if (hMananger == null) hMananger = HandModels.GetComponent<HandModelManager>();
     }
 
 
-
+    // Synchronice current scene between both computers
     [PunRPC]
     public void syncScene(int scene)
     {
@@ -58,6 +48,9 @@ public class MySceneManager : MonoBehaviour
     }
 
     // Update is called once per frame
+    // Input 0-3 switches between the different conditions
+    // Start recording with G and stop with H
+    
     void Update()
     {
         if (Input.GetKeyDown("0"))
@@ -86,16 +79,25 @@ public class MySceneManager : MonoBehaviour
             PV.RPC("syncScene", RpcTarget.All, 3);
             PV.RPC("SetHandTransfer", RpcTarget.All, false);
             PV.RPC("showDummyHands", RpcTarget.All, true);
-            PV.RPC("playAnimation", RpcTarget.All);
         }
 
         if (Input.GetKeyDown(KeyCode.G))
+
         {
             isStudy = true;
-        }        
+            if (currentScene == 3)
+            {
+                PV.RPC("playAnimation", RpcTarget.All);
+            }
+        }
+
         if (Input.GetKeyDown(KeyCode.H))
         {
             isStudy = false;
+            if (currentScene == 3)
+            {
+                PV.RPC("stopAnimation", RpcTarget.All);
+            }
         }
     }
 
@@ -112,6 +114,7 @@ public class MySceneManager : MonoBehaviour
         }
     }
 
+    
     public void GetGameObjects()
     {
         if (GameObject.Find("MasterPlayer") == null)
@@ -124,13 +127,28 @@ public class MySceneManager : MonoBehaviour
             Slave = GameObject.Find("PhotonHands(Clone)");
             Master = GameObject.Find("MasterPlayer");
         }
-       
-        Master.transform.Find("ViveHead").position = new Vector3(0.95f, 0.78f, -0.29f);
-        Slave.transform.Find("ViveHead").position = new Vector3(-0.95f, 0.8f, -0.19f);
-        
-        Master.transform.Find("ViveHead").rotation = Quaternion.Euler(-90,14,76);
-        Slave.transform.Find("ViveHead").rotation = Quaternion.Euler(-90,-160,67);
+
+        if (currentScene == 2)
+        {
+            Master.transform.Find("ViveHead").position = new Vector3(0.95f, 0.78f, -0.29f);
+            Slave.transform.Find("ViveHead").position = new Vector3(-0.95f, 0.8f, -0.19f);
+
+            Master.transform.Find("ViveHead").rotation = Quaternion.Euler(-90, 14, 76);
+            Slave.transform.Find("ViveHead").rotation = Quaternion.Euler(-90, -160, 67);
+        }
+
+        if (currentScene == 3)
+        {
+            Master.transform.Find("ViveHead").position = new Vector3(0, 1.7f, 0);
+            Slave.transform.Find("ViveHead").position = new Vector3(0.1f, 1.7f, -0.6f);
+
+            Master.transform.Find("ViveHead").rotation = Quaternion.Euler(0, 0, 0);
+            Slave.transform.Find("ViveHead").rotation = Quaternion.Euler(0, 180, 0);
+        }
     }
+
+    // For Cond 2 & 3 show dummy hands instead of the real ones to the opponent
+    // Depending who loads the scene master and slave are set accordingly
     [PunRPC]
     private void showDummyHands(bool show)
     {
@@ -145,35 +163,50 @@ public class MySceneManager : MonoBehaviour
             Master.transform.Find("ViveHead").Find("R_Dummy").gameObject.SetActive(show);
             Master.transform.Find("ViveHead").Find("L_Dummy").gameObject.SetActive(show);
         }
+
+        animMaster = Master.transform.Find("ViveHead").GetComponent<Animator>();
+        animSlave = Slave.transform.Find("ViveHead").GetComponent<Animator>();
     }
 
+    
+    // For condition 3 starting and stopping the Fake animation, synced between both PCs.
     [PunRPC]
     private void playAnimation()
     {
-        anmiMasterRight = Master.transform.Find("ViveHead").GetComponent<Animator>();
-        animSlaveRight = Slave.transform.Find("ViveHead").GetComponent<Animator>();
-        
-        
         if (PhotonNetwork.IsMasterClient)
         {
-            if (null != animSlaveRight)
+            if (null != animSlave)
             {
-                // play Bounce but start at a quarter of the way though
-                animSlaveRight.Play("test", 0, 0.25f);
-                //animSlaveLeft.Play("test", 0, 0.25f);
+                //animSlaveRight.enabled = true;
+                animSlave.Play("test", 0, 0.25f);
             }
         }
         else
         {
-            if (null != anmiMasterRight)
+            if (null != animMaster)
             {
-                // play Bounce but start at a quarter of the way though
-                anmiMasterRight.Play("test", 0, 0.25f);
-                //anmiMasterLeft.Play("test", 0, 0.25f);
-            }        
+                //anmiMasterRight.enabled = true;
+                animMaster.Play("test", 0, 0.25f);
+            }
         }
-        
-        
-       
+    }
+
+    [PunRPC]
+    private void stopAnimation()
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            if (null != animSlave)
+            {
+                animSlave.Play("idle", 0, 0.25f);
+            }
+        }
+        else
+        {
+            if (null != animMaster)
+            {
+                animMaster.Play("idle", 0, 0.25f);
+            }
+        }
     }
 }

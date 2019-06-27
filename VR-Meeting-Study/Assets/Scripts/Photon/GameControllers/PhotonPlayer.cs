@@ -22,8 +22,7 @@ public class PhotonPlayer : MonoBehaviour
         
         if (PV.IsMine)
         {
-//            if (PhotonNetwork.PlayerList.Length > 0)
-//                PV.RPC("SetSpawnPoint", RpcTarget.All);
+
             
             MyAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PhotonHands")
                 , new Vector3(0,0,0), new Quaternion(0,0,0,0), 0);
@@ -34,16 +33,8 @@ public class PhotonPlayer : MonoBehaviour
                 MyAvatar.name = "MasterPlayer";
             }
             
-            //SetPlayerSpawn.setSpawn.SetPosition();
-            //SetPlayerSpawn.setSpawn.SetRotation();
+
         }
     }
-
-    [PunRPC]
-    private void SetSpawnPoint()
-    {
-        mySpawn = 1;
-        otherSpawn = 0;
-
-    }
+    
 }
