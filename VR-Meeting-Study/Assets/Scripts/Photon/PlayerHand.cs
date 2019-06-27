@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
-using Photon.Realtime;
 using Leap.Unity;
-using Leap.Unity.Interaction;
-using System.Linq;
-using TMPro;
 
 
+// Class for the hand mapping, leap hands are only used as controller, and human hand movement is mapped from leap to them.
 public class PlayerHand : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -138,45 +133,16 @@ public class PlayerHand : MonoBehaviour
             AvatarBones[1].GetComponent<SkinnedMeshRenderer>().enabled = show;
         }
     }
-    
+
 
     private void Update()
     {
-//        if (!PV.IsMine)
-//        {
-//            Debug.Log((PV.ViewID));
-//        }
         if (AvatarBones.Length == 24 && LeapBones.Length == 28 && PV.IsMine)
         {
-//            switch (MySceneManager.sceneManager.currentScene)
-//            {
-//                case 0:
-//                    map(LeapBones, AvatarBones);
-//                    break;
-//                
-//                case 1:
-//                    map(LeapBones, AvatarBones);
-//                    break;
-//                
-//                case 2:
-//                    map(LeapBones, AvatarBones);
-//                    break;
-//                
-//                case 3:
-//                    map(LeapBones, AvatarBones);
-//                    break;
-//            }
-            
-            
-            
-            
-            
-            
             map(LeapBones, AvatarBones);
             if (MySceneManager.sceneManager.currentScene == 0 || MySceneManager.sceneManager.currentScene == 1)
             {
                 PV.RPC("showHand", RpcTarget.All, cHand.IsTracked);
-                
             }
             else
             {
@@ -189,13 +155,7 @@ public class PlayerHand : MonoBehaviour
                 isConnected = true;
             }
         }
-        
-        
-        
-        
-       
     }
-
 
 
     public void DeactivatePhotonTransforms()
@@ -211,6 +171,4 @@ public class PlayerHand : MonoBehaviour
         Debug.Log(PV.ViewID);
         foreach (var bone in AvatarBones) bone.GetComponent<PhotonTransformView>().enabled = true;
     }
-
-
 }

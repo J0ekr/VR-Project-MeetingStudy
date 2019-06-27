@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.Newtonsoft.Json.Bson;
 
+
+// Set the player spawns with a and b, probably redundant class
 public class SetPlayerSpawn : MonoBehaviour
 {
 

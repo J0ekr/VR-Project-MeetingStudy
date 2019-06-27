@@ -5,6 +5,9 @@ using System.IO;
 using Photon.Pun;
 using UnityEngine;
 
+
+// Class for switching the pictures on the TV panel and the questions on the paper in front of the participants.
+// Keys: Left arrow and right arrow, S for showing white
 public class PictureSwitcher : MonoBehaviour
 {
     public PhotonView PV;

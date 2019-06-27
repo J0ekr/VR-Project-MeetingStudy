@@ -8,6 +8,8 @@ using Leap.Unity;
 using Photon.Pun;
 using UnityEngine;
 
+
+// Class for saving positional data of the palm, together with the condition and co.
 public class SaveHandPosition
 {
     private string[] _rowDataTemp;

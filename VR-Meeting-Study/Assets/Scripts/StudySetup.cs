@@ -6,6 +6,7 @@ using UnityEngine;
 public class StudySetup : MonoBehaviour
 {
 
+    // Class for getting timestamps
     public static StudySetup studySetup;
     public int ParticipantID;
 

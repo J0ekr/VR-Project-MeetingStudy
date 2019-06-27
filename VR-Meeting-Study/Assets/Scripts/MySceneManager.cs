@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Leap.Unity;
-using Photon.Pun;
-using Photon.Pun.Demo.Cockpit;
-using UnityEditor;
+﻿using Photon.Pun;
 using UnityEngine;
-using Valve.Newtonsoft.Json.Bson;
+
+
+// In this class most of the Scene / study logic happens
+// Switching between the different conditions (synchronized on both PCs and starting / stopping recording) with key G/H
 
 public class MySceneManager : MonoBehaviour
 {

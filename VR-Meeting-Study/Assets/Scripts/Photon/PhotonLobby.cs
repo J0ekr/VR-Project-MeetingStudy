@@ -4,6 +4,8 @@ using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
 
+
+// Class for photonlobby connection logic
 public class PhotonLobby : MonoBehaviourPunCallbacks
 
 {
