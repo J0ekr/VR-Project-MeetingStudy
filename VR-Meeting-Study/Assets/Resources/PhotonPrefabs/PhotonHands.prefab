@@ -292,7 +292,6 @@ MonoBehaviour:
   palm: {fileID: 0}
   LeapBones: []
   AvatarBones: []
-  isConnected: 0
   distances:
   - 0
   - 0
@@ -1027,7 +1026,6 @@ MonoBehaviour:
   palm: {fileID: 0}
   LeapBones: []
   AvatarBones: []
-  isConnected: 0
   distances:
   - 0
   - 0

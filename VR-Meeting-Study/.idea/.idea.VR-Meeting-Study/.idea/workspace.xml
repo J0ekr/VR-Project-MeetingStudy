@@ -3,238 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1e75e1ea-657b-499e-81db-44f6ed72c7bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Meeting-Study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/A5_Left.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/A5_Left.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/A5_Right.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/A5_Right.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/Hand_Human_NormalVRayCompleteMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/Hand_Human_NormalVRayCompleteMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/Male_Left.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/Male_Left.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/Male_Right.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hands/Male_Right.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/L_Dummy.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/L_Dummy.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/LoPoly Rigged Hand Right.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/LoPoly Rigged Hand Right.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/R_Dummy.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/R_Dummy.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/R_Hand_Human_Normal.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/R_Hand_Human_Normal.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/ViveHands.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/ViveHead.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Recordings/ViveHead.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_HumanHands_001.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_HumanHands_001.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_L_Hand_Human_Normal_002.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_L_Hand_Human_Normal_002.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_L_Hand_Human_Normal_003.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_L_Hand_Human_Normal_003.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_LoPoly Rigged Hand Right_005.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_LoPoly Rigged Hand Right_005.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_R_Hand_Human_Normal_001.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_R_Hand_Human_Normal_001.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_R_Hand_Human_Normal_002.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_R_Hand_Human_Normal_002.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_R_Hand_Human_Normal_003.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_R_Hand_Human_Normal_003.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_ViveHands_002.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/animation_ViveHands_002.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/both2.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/bothHANDS.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/humanhands.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/humanright1.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_003.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_003.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_004.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_004.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_005.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_005.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_006.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_006.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_007.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_007.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_008.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_008.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_009.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_009.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_010.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_010.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_011.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_011.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_012.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_012.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_013.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_013.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_014.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_014.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_015.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/animation_ViveHands_015.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Recordings/study/studyanimations1.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonNetworkPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PhotonNetworkPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chair_01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chair_01/CHH222.MAX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chair_01/CHH222.MAX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chair_01/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chair_01/Materials/Chrome Med.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chair_01/Materials/Chrome Med.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chair_01/Materials/LEATHER.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chair_01/Materials/LEATHER.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Prefabs/officeChair.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Prefabs/officeChair.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Fbx/officeChair.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Fbx/officeChair.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/BasChaise.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/BasChaise.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/alu.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/alu.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/dossierChaise.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/dossierChaise.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/leather_brown.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/leather_brown.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/BasChaise.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/BasChaise.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/alu.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/alu.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/dossierChaise.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/dossierChaise.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/leather_brown.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/leather_brown.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/plasticNoir.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/officeChair/plasticNoir.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/plasticNoir.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Materials/plasticNoir.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Textures/leather_brown 1.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Chairs and sofas pack/Src/Textures/leather_brown 1.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Materials/Teachers_Board.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Materials/Teachers_Board.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/100W_WHITE.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/100W_WHITE.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/60W_WHITE.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/60W_WHITE.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/Matte Chrome.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/Matte Chrome.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/marble_black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/marble_black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/rubber_blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/Materials/rubber_blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/monitor.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Monitor_01/monitor.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/Materials/texture_tv.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/Materials/texture_tv.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/TVset.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/TVset.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/model/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/model/Materials/09 - Default.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/model/Materials/09 - Default.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/model/TVset.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/model/TVset.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/textures/texture_tv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/textures/texture_tv.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/textures/texture_tv_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/textures/texture_tv_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/textures/texture_tv_spec.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/TV/textures/texture_tv_spec.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Teachers_Board.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/Teachers_Board.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/WhiteBoard.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/WhiteBoard/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/WhiteBoard/Materials/Teachers_Board.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/WhiteBoard/Materials/Teachers_Board.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/WhiteBoard/Teachers_Board.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/WhiteBoard/Teachers_Board.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/WhiteBoard/Teachers_Board.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/WhiteBoard/Teachers_Board.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/A4_fbx.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/A4_fbx.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Cable Head.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Cable Head.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Cable.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Cable.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Keys.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Keys.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Lights.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Lights.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/M_Key Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/M_Key Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/M_Keys.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/M_Keys.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Metal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/keyboard_01/Materials/Metal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Maps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Maps/Table_Normals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Maps/Table_Normals.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Maps/Table_Occlusion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Maps/Table_Occlusion.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Material/Table_Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Material/Table_Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Model/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Model/Materials/_LP_LPwire_135110008.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Model/Materials/_LP_LPwire_135110008.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Model/Table.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Model/Table.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Table.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_01/Table.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_02.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_02/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_02/Materials/MetalChrome.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_02/Materials/MetalChrome.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_02/Materials/WHITE PLASTIC.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_02/Materials/WHITE PLASTIC.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_02/TBO008.MAX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Room/Room/table_02/TBO008.MAX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameLobby.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameLobby.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GamerMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GamerMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GamerScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GamerScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Network.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Network.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RecordAndPlayback.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RecordAndPlayback.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RecordTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RecordTest.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/newStudyScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/newStudyScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -244,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <marker date="1559923671079" expanded="true" signature="6:128" ph="..." />
                 <marker date="1559923671079" expanded="true" signature="191:987" ph="{...}" />
@@ -267,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="60">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <marker date="1561646497388" expanded="true" signature="6:119" ph="..." />
@@ -288,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
+            <state relative-caret-position="990">
               <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
               <folding>
                 <marker date="1561392199635" expanded="true" signature="6:171" ph="..." />
@@ -314,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveHandPosition.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="45">
               <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
               <folding>
                 <marker date="1561646411379" expanded="true" signature="6:202" ph="..." />
@@ -356,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/StudySetup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="15">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <marker date="1561646305032" expanded="false" signature="6:92" ph="..." />
@@ -368,35 +138,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="6" column="123" selection-start-line="6" selection-start-column="123" selection-end-line="6" selection-end-column="123" />
+            <state relative-caret-position="763">
+              <caret line="173" column="76" lean-forward="true" selection-start-line="173" selection-start-column="76" selection-end-line="173" selection-end-column="76" />
               <folding>
-                <marker date="1561646604910" expanded="true" signature="6:88" ph="..." />
-                <marker date="1561646604910" expanded="true" signature="254:5729" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="777:881" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="940:1200" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="1086:1152" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="1226:2848" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="1389:2255" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="2283:2454" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="2467:2588" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="2717:2842" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="2911:4362" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="3342:3602" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="3423:3592" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="3690:4242" ph="/* TODO: fix this, arm rotation and position ... */" />
-                <marker date="1561646604910" expanded="true" signature="4413:4609" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="4504:4603" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="4637:5260" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="4720:5254" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="4883:4979" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="4996:5067" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="5098:5244" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="5307:5500" ph="{...}" />
-                <marker date="1561646604910" expanded="true" signature="5544:5727" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="6:88" ph="..." />
+                <marker date="1561724471856" expanded="true" signature="254:6434" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="1035:1139" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="1198:1458" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="1344:1410" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="1484:3041" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="1647:2448" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="2476:2647" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="2660:2781" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="2910:3035" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="3104:5244" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="3297:5124" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="3656:4002" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="3761:3984" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="4560:4907" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="4665:4889" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="5295:5491" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="5386:5485" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="5519:5965" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="5602:5959" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="5765:5861" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="5878:5949" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="6012:6205" ph="{...}" />
+                <marker date="1561724471856" expanded="true" signature="6249:6432" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+                <marker date="1526509084000" expanded="false" signature="648:686" ph="..." />
+                <marker date="1526509084000" expanded="true" signature="709:2000" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="714:845" ph="/// A component to be attached to a HandModelBase to handle starting and ending of ... " />
+                <marker date="1526509084000" expanded="true" signature="909:1997" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1074:1520" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1162:1340" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1561:1993" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1596:1900" ph="{...}" />
+                <marker date="1526509084000" expanded="true" signature="1702:1892" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -405,7 +197,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="180">
               <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <marker date="1559923307480" expanded="false" signature="6:96" ph="..." />
@@ -427,6 +219,7 @@
       <find>.Find(&quot;Head&quot;)</find>
       <find>SetPosition</find>
       <find>SetSpawnPoint</find>
+      <find>LoPoly Rigged Hand Left</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -486,14 +279,14 @@
         <option value="$PROJECT_DIR$/Assets/PictureSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs" />
         <option value="$PROJECT_DIR$/Assets/SetPlayerSpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="2079" />
+    <option name="width" value="1294" />
     <option name="height" value="1567" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -502,41 +295,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Photon" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Photon" type="1045f7f1:UnityExplorerNode" />
-              <item name="GameControllers" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -596,12 +362,13 @@
       <workItem from="1561540894476" duration="1338000" />
       <workItem from="1561548217248" duration="7483000" />
       <workItem from="1561561629736" duration="213000" />
-      <workItem from="1561627217802" duration="7534000" />
+      <workItem from="1561627217802" duration="10976000" />
+      <workItem from="1561711455013" duration="776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60256000" />
+    <option name="totallyTimeSpent" value="64474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,10 +380,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
+    <frame x="-7" y="0" width="1294" height="1567" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28577107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18557537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -714,25 +481,6 @@
             <marker date="1557137474000" expanded="true" signature="2326:2712" ph="{...}" />
             <marker date="1557137474000" expanded="true" signature="2426:2505" ph="{...}" />
             <marker date="1557137474000" expanded="true" signature="2551:2702" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
-            <marker date="1526509084000" expanded="false" signature="648:686" ph="..." />
-            <marker date="1526509084000" expanded="true" signature="709:2000" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="714:845" ph="/// A component to be attached to a HandModelBase to handle starting and ending of ... " />
-            <marker date="1526509084000" expanded="true" signature="909:1997" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1074:1520" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1162:1340" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1561:1993" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1596:1900" ph="{...}" />
-            <marker date="1526509084000" expanded="true" signature="1702:1892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1617,34 +1365,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CSV/UserID0/UserID01561369077243.csv" />
-    <entry file="file://$PROJECT_DIR$/Assets/HeadPosition.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <marker date="1561368134217" expanded="false" signature="6:96" ph="..." />
-            <marker date="1561368134217" expanded="true" signature="139:739" ph="{...}" />
-            <marker date="1561368134217" expanded="true" signature="272:474" ph="{...}" />
-            <marker date="1561368134217" expanded="true" signature="358:459" ph="{...}" />
-            <marker date="1561368134217" expanded="true" signature="532:737" ph="{...}" />
-            <marker date="1561368134217" expanded="true" signature="561:722" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PhotonManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <marker date="1561389624160" expanded="false" signature="6:96" ph="..." />
-            <marker date="1561389624160" expanded="true" signature="152:424" ph="{...}" />
-            <marker date="1561389624160" expanded="true" signature="215:281" ph="{...}" />
-            <marker date="1561389624160" expanded="true" signature="349:422" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HeadPosition.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/PhotonManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_Render.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-757">
@@ -1700,20 +1422,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/StudySetup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PictureSwitcher.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StudySetup.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/PictureSwitcher.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/HandModelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -1835,13 +1545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SetPlayerSpawn.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SetPlayerSpawn.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeadPosition.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1938,9 +1642,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <marker date="1561647180794" expanded="false" signature="6:113" ph="..." />
+            <marker date="1561647180794" expanded="true" signature="223:974" ph="{...}" />
+            <marker date="1561647180794" expanded="true" signature="348:972" ph="{...}" />
+            <marker date="1561647180794" expanded="true" signature="475:966" ph="{...}" />
+            <marker date="1561647180794" expanded="true" signature="880:956" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <marker date="1561646263289" expanded="true" signature="6:92" ph="..." />
+            <marker date="1561646263289" expanded="true" signature="132:403" ph="{...}" />
+            <marker date="1561646263289" expanded="true" signature="232:311" ph="{...}" />
+            <marker date="1561646263289" expanded="true" signature="262:305" ph="{...}" />
+            <marker date="1561646263289" expanded="true" signature="349:401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <marker date="1559923671079" expanded="true" signature="6:128" ph="..." />
+            <marker date="1559923671079" expanded="true" signature="191:987" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="293:570" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="325:370" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="435:564" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="612:777" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="641:771" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="819:985" ph="{...}" />
+            <marker date="1559923671079" expanded="true" signature="848:979" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1561646497388" expanded="true" signature="6:119" ph="..." />
+            <marker date="1561646497388" expanded="true" signature="217:1790" ph="{...}" />
+            <marker date="1561646497388" expanded="true" signature="384:418" ph="{...}" />
+            <marker date="1561646497388" expanded="true" signature="437:537" ph="{...}" />
+            <marker date="1561646497388" expanded="true" signature="585:746" ph="{...}" />
+            <marker date="1561646497388" expanded="true" signature="785:912" ph="{...}" />
+            <marker date="1561646497388" expanded="true" signature="991:1112" ph="{...}" />
+            <marker date="1561646497388" expanded="true" signature="1135:1419" ph="{...}" />
+            <marker date="1561646497388" expanded="true" signature="1498:1624" ph="{...}" />
+            <marker date="1561646497388" expanded="true" signature="1665:1788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+          <folding>
+            <marker date="1561392199635" expanded="true" signature="6:171" ph="..." />
+            <marker date="1561392199635" expanded="true" signature="242:2126" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="427:772" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="470:526" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="539:721" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="590:711" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="790:843" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="880:1024" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="1062:1210" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="1251:1520" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="1328:1469" ph="/* photonPlayers = PhotonNetwork.PlayerList; ... */" />
+            <marker date="1561392199635" expanded="true" signature="1550:1664" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="1730:1909" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="1823:1903" ph="{...}" />
+            <marker date="1561392199635" expanded="true" signature="1942:2124" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveHandPosition.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="45">
           <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
           <folding>
             <marker date="1561646411379" expanded="true" signature="6:202" ph="..." />
@@ -1978,7 +1771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/StudySetup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="15">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <marker date="1561646305032" expanded="false" signature="6:92" ph="..." />
@@ -1989,9 +1782,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1526509084000" expanded="true" signature="0:640" ph="/* Copyright (C) Leap Motion, Inc. 2011-2018. ... */" />
+            <marker date="1526509084000" expanded="false" signature="648:686" ph="..." />
+            <marker date="1526509084000" expanded="true" signature="709:2000" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="714:845" ph="/// A component to be attached to a HandModelBase to handle starting and ending of ... " />
+            <marker date="1526509084000" expanded="true" signature="909:1997" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1074:1520" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1162:1340" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1561:1993" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1596:1900" ph="{...}" />
+            <marker date="1526509084000" expanded="true" signature="1702:1892" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonCapsuleHand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="180">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <marker date="1559923307480" expanded="false" signature="6:96" ph="..." />
@@ -2002,123 +1814,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonLobby.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1561646497388" expanded="true" signature="6:119" ph="..." />
-            <marker date="1561646497388" expanded="true" signature="217:1790" ph="{...}" />
-            <marker date="1561646497388" expanded="true" signature="384:418" ph="{...}" />
-            <marker date="1561646497388" expanded="true" signature="437:537" ph="{...}" />
-            <marker date="1561646497388" expanded="true" signature="585:746" ph="{...}" />
-            <marker date="1561646497388" expanded="true" signature="785:912" ph="{...}" />
-            <marker date="1561646497388" expanded="true" signature="991:1112" ph="{...}" />
-            <marker date="1561646497388" expanded="true" signature="1135:1419" ph="{...}" />
-            <marker date="1561646497388" expanded="true" signature="1498:1624" ph="{...}" />
-            <marker date="1561646497388" expanded="true" signature="1665:1788" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonRoom.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding>
-            <marker date="1561392199635" expanded="true" signature="6:171" ph="..." />
-            <marker date="1561392199635" expanded="true" signature="242:2126" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="427:772" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="470:526" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="539:721" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="590:711" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="790:843" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="880:1024" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="1062:1210" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="1251:1520" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="1328:1469" ph="/* photonPlayers = PhotonNetwork.PlayerList; ... */" />
-            <marker date="1561392199635" expanded="true" signature="1550:1664" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="1730:1909" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="1823:1903" ph="{...}" />
-            <marker date="1561392199635" expanded="true" signature="1942:2124" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PlayerHand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="123" selection-start-line="6" selection-start-column="123" selection-end-line="6" selection-end-column="123" />
+        <state relative-caret-position="763">
+          <caret line="173" column="76" lean-forward="true" selection-start-line="173" selection-start-column="76" selection-end-line="173" selection-end-column="76" />
           <folding>
-            <marker date="1561646604910" expanded="true" signature="6:88" ph="..." />
-            <marker date="1561646604910" expanded="true" signature="254:5729" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="777:881" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="940:1200" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="1086:1152" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="1226:2848" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="1389:2255" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="2283:2454" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="2467:2588" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="2717:2842" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="2911:4362" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="3342:3602" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="3423:3592" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="3690:4242" ph="/* TODO: fix this, arm rotation and position ... */" />
-            <marker date="1561646604910" expanded="true" signature="4413:4609" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="4504:4603" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="4637:5260" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="4720:5254" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="4883:4979" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="4996:5067" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="5098:5244" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="5307:5500" ph="{...}" />
-            <marker date="1561646604910" expanded="true" signature="5544:5727" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameControllers/PhotonPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <marker date="1561647180794" expanded="false" signature="6:113" ph="..." />
-            <marker date="1561647180794" expanded="true" signature="223:974" ph="{...}" />
-            <marker date="1561647180794" expanded="true" signature="348:972" ph="{...}" />
-            <marker date="1561647180794" expanded="true" signature="475:966" ph="{...}" />
-            <marker date="1561647180794" expanded="true" signature="880:956" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/GameSetup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <marker date="1561646263289" expanded="true" signature="6:92" ph="..." />
-            <marker date="1561646263289" expanded="true" signature="132:403" ph="{...}" />
-            <marker date="1561646263289" expanded="true" signature="232:311" ph="{...}" />
-            <marker date="1561646263289" expanded="true" signature="262:305" ph="{...}" />
-            <marker date="1561646263289" expanded="true" signature="349:401" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Photon/PhotonHandEnableDisable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1559923671079" expanded="true" signature="6:128" ph="..." />
-            <marker date="1559923671079" expanded="true" signature="191:987" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="293:570" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="325:370" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="435:564" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="612:777" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="641:771" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="819:985" ph="{...}" />
-            <marker date="1559923671079" expanded="true" signature="848:979" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="6:88" ph="..." />
+            <marker date="1561724471856" expanded="true" signature="254:6434" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="1035:1139" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="1198:1458" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="1344:1410" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="1484:3041" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="1647:2448" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="2476:2647" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="2660:2781" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="2910:3035" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="3104:5244" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="3297:5124" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="3656:4002" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="3761:3984" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="4560:4907" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="4665:4889" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="5295:5491" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="5386:5485" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="5519:5965" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="5602:5959" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="5765:5861" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="5878:5949" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="6012:6205" ph="{...}" />
+            <marker date="1561724471856" expanded="true" signature="6249:6432" ph="{...}" />
           </folding>
         </state>
       </provider>

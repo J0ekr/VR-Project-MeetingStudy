@@ -14,7 +14,7 @@ public class PlayerHand : MonoBehaviour
     public Chirality whichHand;
 
     public GameObject HandModels;
-    public RiggedHand cHand;
+    public RigidHand cHand;
 
     public GameObject hand;
     public GameObject palm;
@@ -22,11 +22,16 @@ public class PlayerHand : MonoBehaviour
     public GameObject[] LeapBones;
     public GameObject[] AvatarBones;
 
-    private Quaternion leap_quad = new Quaternion(0, 0, 1, 0);
+    private Vector3 fingerRotRight = new Vector3(180, 90, 0);
+    private Vector3 palmRotRight = new Vector3(180, -90, 0);
+    private Vector3 armRotRight = new Vector3(90, 0, -90);
 
-    public bool isConnected = false;
+    private Vector3 fingerRotLeft = new Vector3(0, -90, 0);
+    private Vector3 palmRotLeft = new Vector3(0, 90, 0);
+    private Vector3 armRotLeft = new Vector3(-90, -90, 0);
 
     public float[] distances = new float[6];
+
 
     private void Awake()
     {
@@ -53,18 +58,18 @@ public class PlayerHand : MonoBehaviour
         {
             case Chirality.Left:
 
-                hand = HandModels.transform.Find("LoPoly Rigged Hand Left").gameObject;
-                cHand = hand.GetComponent<RiggedHand>();
-                palm = hand.transform.GetChild(1).gameObject;
+                hand = HandModels.transform.Find("RigidRoundHand_L").gameObject;
+                cHand = hand.GetComponent<RigidHand>();
                 LeapBones = GetChildRecursive(hand);
                 AvatarBones = GetChildRecursive(gameObject);
+                palm = LeapBones[21];
                 break;
             case Chirality.Right:
-                hand = HandModels.transform.Find("LoPoly Rigged Hand Right").gameObject;
-                cHand = hand.GetComponent<RiggedHand>();
-                palm = hand.transform.GetChild(1).gameObject;
+                hand = HandModels.transform.Find("RigidRoundHand_R").gameObject;
+                cHand = hand.GetComponent<RigidHand>();
                 LeapBones = GetChildRecursive(hand);
                 AvatarBones = GetChildRecursive(gameObject);
+                palm = LeapBones[21];
                 break;
             default:
                 Debug.Log("no hands found");
@@ -92,34 +97,63 @@ public class PlayerHand : MonoBehaviour
 
     private void map(GameObject[] leap, GameObject[] avatar)
     {
-        avatar[2].transform.position = leap[3].transform.position; //palm
-        avatar[21].transform.position = leap[24].transform.position; //thumb_meta
-
-
         //index, mid, pinky, ring, thumb
-        int[] leap_index = new int[] {5, 10, 15, 20, 24};
+        int[] leap_index = new int[] {6, 10, 14, 18, 2};
         int[] avatar_index = new int[] {9, 12, 15, 18, 21};
 
-        //Loops over fingers to correct their rotation
-        for (int i = 0; i < leap_index.Length; i++)
-        {
-            //loops over bones
-            for (int j = 0; j < 3; j++)
-            {
-                avatar[avatar_index[i] + j].transform.rotation =
-                    leap[leap_index[i] + j].transform.rotation * leap_quad;
-            }
-        }
 
-        avatar[2].transform.rotation = leap[3].transform.rotation * leap_quad; //palm
-//        TODO: fix this, arm rotation and position
-//        avatar[3].transform.position = leap[2].transform.position + distances[0] * leap[2].transform.up;
-//        avatar[3].transform.rotation = leap[2].transform.rotation * Quaternion.Euler(180, 0, -90);
-//        for (int i = 0; i < 5; i++)
-//        {
-//            avatar[4 + i].transform.rotation = avatar[3].transform.rotation * Quaternion.Euler(i * 18, 0, 0);
-//            avatar[4 + i].transform.position = leap[2].transform.position + distances[i + 1] * leap[2].transform.up;
-//        }
+        switch (whichHand)
+        {
+            case Chirality.Left:
+
+                avatar[2].transform.position = cHand.GetWristPosition();
+
+
+                avatar[2].transform.rotation = leap[21].transform.rotation * Quaternion.Euler(palmRotLeft); //palm
+
+
+                //Loops over fingers to correct their rotation
+                for (int i = 0; i < leap_index.Length; i++)
+                {
+                    //loops over bones
+                    for (int j = 0; j < 3; j++)
+                    {
+                        avatar[avatar_index[i] + j].transform.rotation =
+                            leap[leap_index[i] + j].transform.rotation * Quaternion.Euler(fingerRotLeft);
+                    }
+                }
+
+
+                avatar[3].transform.position = cHand.GetElbowPosition();
+                avatar[3].transform.rotation = leap[22].transform.rotation * Quaternion.Euler(armRotLeft);
+
+                break;
+
+            case Chirality.Right:
+
+                avatar[2].transform.position = cHand.GetWristPosition();
+
+
+                avatar[2].transform.rotation = leap[21].transform.rotation * Quaternion.Euler(palmRotRight); //palm
+
+
+                //Loops over fingers to correct their rotation
+                for (int i = 0; i < leap_index.Length; i++)
+                {
+                    //loops over bones
+                    for (int j = 0; j < 3; j++)
+                    {
+                        avatar[avatar_index[i] + j].transform.rotation =
+                            leap[leap_index[i] + j].transform.rotation * Quaternion.Euler(fingerRotRight);
+                    }
+                }
+
+
+                avatar[3].transform.position = cHand.GetElbowPosition();
+                avatar[3].transform.rotation = leap[22].transform.rotation * Quaternion.Euler(armRotRight);
+
+                break;
+        }
 
 
         SaveHandPosition.Save(avatar[2].gameObject, avatar[0].GetComponent<PlayerHand>().whichHand, PV.ViewID);
@@ -137,7 +171,7 @@ public class PlayerHand : MonoBehaviour
 
     private void Update()
     {
-        if (AvatarBones.Length == 24 && LeapBones.Length == 28 && PV.IsMine)
+        if (AvatarBones.Length == 24 && LeapBones.Length == 23 && PV.IsMine)
         {
             map(LeapBones, AvatarBones);
             if (MySceneManager.sceneManager.currentScene == 0 || MySceneManager.sceneManager.currentScene == 1)
@@ -147,12 +181,6 @@ public class PlayerHand : MonoBehaviour
             else
             {
                 showHand(cHand.IsTracked);
-            }
-
-            if (!isConnected)
-            {
-                LeapBones[1].GetComponent<SkinnedMeshRenderer>().enabled = false;
-                isConnected = true;
             }
         }
     }
