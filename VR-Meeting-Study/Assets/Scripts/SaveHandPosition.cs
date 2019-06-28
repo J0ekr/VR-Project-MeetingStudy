@@ -16,7 +16,7 @@ public class SaveHandPosition
     private static SaveHandPosition _instance = null;
 
 
-    private static readonly string CsvSeparator = ",";
+    private static readonly string CsvSeparator = ";";
 
 
     string FileName;

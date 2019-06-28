@@ -169,6 +169,13 @@ public class PlayerHand : MonoBehaviour
     }
 
 
+
+//    [PunRPC]
+//    private void syncBones(Transform [] pos, Transform [] rot)
+//    {
+//        AvatarPositions = pos;
+//    }
+    
     private void Update()
     {
         if (AvatarBones.Length == 24 && LeapBones.Length == 23 && PV.IsMine)

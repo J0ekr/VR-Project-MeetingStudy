@@ -81,7 +81,7 @@ public class MySceneManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G))
 
         {
-            isStudy = true;
+            PV.RPC("setStudy", RpcTarget.All, true);
             if (currentScene == 3)
             {
                 PV.RPC("playAnimation", RpcTarget.All);
@@ -90,7 +90,7 @@ public class MySceneManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.H))
         {
-            isStudy = false;
+            PV.RPC("setStudy", RpcTarget.All, false);
             if (currentScene == 3)
             {
                 PV.RPC("stopAnimation", RpcTarget.All);
@@ -98,6 +98,12 @@ public class MySceneManager : MonoBehaviour
         }
     }
 
+
+    [PunRPC]
+    private void setStudy(bool active)
+    {
+        isStudy = active;
+    }
     [PunRPC]
     private void SetHandTransfer(bool mode)
     {
@@ -136,11 +142,11 @@ public class MySceneManager : MonoBehaviour
 
         if (currentScene == 3)
         {
-            Master.transform.Find("ViveHead").position = new Vector3(0, 1.7f, 0);
-            Slave.transform.Find("ViveHead").position = new Vector3(0.1f, 1.7f, -0.6f);
+            Master.transform.Find("ViveHead").position = new Vector3(1.7f, 1.7f, -0.25f);
+            Slave.transform.Find("ViveHead").position = new Vector3(-1.7f, 1.7f, -0.4f);
 
-            Master.transform.Find("ViveHead").rotation = Quaternion.Euler(0, 0, 0);
-            Slave.transform.Find("ViveHead").rotation = Quaternion.Euler(0, 180, 0);
+            Master.transform.Find("ViveHead").rotation = Quaternion.Euler(0, -90, 0);
+            Slave.transform.Find("ViveHead").rotation = Quaternion.Euler(0, 90, 0);
         }
     }
 
